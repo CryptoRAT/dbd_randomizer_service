@@ -23,4 +23,5 @@ RUN pip install -r requirements.txt
 # port where the Django app runs
 EXPOSE 8000
 # start server
-CMD python manage.py runserver
+RUN chmod +x start.sh
+ENTRYPOINT  ./start.sh
