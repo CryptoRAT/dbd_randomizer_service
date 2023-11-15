@@ -1,0 +1,8 @@
+name: dbd-randomizer-service
+services:
+- dockerfile_path: Dockerfile
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: CryptoRAT/dbd_randomizer_service
+  name: dbd-randomizer-service

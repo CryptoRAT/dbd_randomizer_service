@@ -1,0 +1,8 @@
+spec:
+  name: dbd-randomizer-service
+  services:
+  - dockerfile_path: Dockerfile
+    git:
+      branch: main
+      repo_clone_url: https://github.com/CryptoRAT/dbd_randomizer_service.git
+    name: dbd-randomizer-service
