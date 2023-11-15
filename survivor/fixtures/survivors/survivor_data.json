@@ -1,0 +1,314 @@
+[
+  {
+    "model": "survivor.Survivor",
+    "pk": 1,
+    "fields": {
+      "name": "Ace Visconti",
+      "image_path": "static/survivors/ace_visconti.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 2,
+    "fields": {
+      "name": "Dwight Fairfield",
+      "image_path": "static/survivors/dwight_fairfield.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 3,
+    "fields": {
+      "name": "Meg Thomas",
+      "image_path": "static/survivors/meg_thomas.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 4,
+    "fields": {
+      "name": "Claudette Morel",
+      "image_path": "static/survivors/claudette_morel.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 5,
+    "fields": {
+      "name": "Jake Park",
+      "image_path": "static/survivors/jake_park.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 6,
+    "fields": {
+      "name": "Nea Karlsson",
+      "image_path": "static/survivors/nea_karlsson.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 7,
+    "fields": {
+      "name": "Laurie Strode",
+      "image_path": "static/survivors/laurie_strode.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 8,
+    "fields": {
+      "name": "William \"Bill\" Overbeck",
+      "image_path": "static/survivors/william_bill_overbeck.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 9,
+    "fields": {
+      "name": "Feng Min",
+      "image_path": "static/survivors/feng_min.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 10,
+    "fields": {
+      "name": "David King",
+      "image_path": "static/survivors/david_king.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 11,
+    "fields": {
+      "name": "Quentin Smith",
+      "image_path": "static/survivors/quentin_smith.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 12,
+    "fields": {
+      "name": "Detective David Tapp",
+      "image_path": "static/survivors/david_tapp.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 13,
+    "fields": {
+      "name": "Kate Denson",
+      "image_path": "static/survivors/kate_denson.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 14,
+    "fields": {
+      "name": "Adam Francis",
+      "image_path": "static/survivors/adam_francis.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 15,
+    "fields": {
+      "name": "Jeffrey \"Jeff\" Johansen",
+      "image_path": "static/survivors/jeff_johansen.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 16,
+    "fields": {
+      "name": "Jane Romero",
+      "image_path": "static/survivors/jane_romero.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 17,
+    "fields": {
+      "name": "Ashley J. Williams",
+      "image_path": "static/survivors/ash_williams.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 18,
+    "fields": {
+      "name": "Nancy Wheeler",
+      "image_path": "static/survivors/nancy_wheeler.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 19,
+    "fields": {
+      "name": "Steve Harrington",
+      "image_path": "static/survivors/steve_harrington.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 20,
+    "fields": {
+      "name": "Yui Kimura",
+      "image_path": "static/survivors/yui_kimura.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 21,
+    "fields": {
+      "name": "Zarina Kassir",
+      "image_path": "static/survivors/zarina_kassir.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 22,
+    "fields": {
+      "name": "Cheryl Mason",
+      "image_path": "static/survivors/cheryl_mason.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 23,
+    "fields": {
+      "name": "Felix Richter",
+      "image_path": "static/survivors/felix_richter.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 24,
+    "fields": {
+      "name": "Élodie Rakoto",
+      "image_path": "static/survivors/elodie_rakoto.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 25,
+    "fields": {
+      "name": "Yun-Jin Lee",
+      "image_path": "static/survivors/yun_jin_lee.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 26,
+    "fields": {
+      "name": "Jill Valentine",
+      "image_path": "static/survivors/jill_valentine.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 27,
+    "fields": {
+      "name": "Leon Scott Kennedy",
+      "image_path": "static/survivors/leon_scott_kennedy.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 28,
+    "fields": {
+      "name": "Mikaela Reid",
+      "image_path": "static/survivors/mikaela_reid.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 29,
+    "fields": {
+      "name": "Jonah Vasquez",
+      "image_path": "static/survivors/jonah_vasquez.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 30,
+    "fields": {
+      "name": "Yoichi Asakawa",
+      "image_path": "static/survivors/yoichi_asakawa.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 31,
+    "fields": {
+      "name": "Haddie Kaur",
+      "image_path": "static/survivors/haddie_kaur.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 32,
+    "fields": {
+      "name": "Ada Wong",
+      "image_path": "static/survivors/ada_wong.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 33,
+    "fields": {
+      "name": "Rebecca Chambers",
+      "image_path": "static/survivors/rebecca_chambers.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 34,
+    "fields": {
+      "name": "Vittorio Toscano",
+      "image_path": "static/survivors/vittorio_toscano.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 35,
+    "fields": {
+      "name": "Thalita Lyra",
+      "image_path": "static/survivors/thalita_lyra.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 36,
+    "fields": {
+      "name": "Renato Lyra",
+      "image_path": "static/survivors/renato_lyra.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 37,
+    "fields": {
+      "name": "Gabriel Soma",
+      "image_path": "static/survivors/gabriel_soma.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 38,
+    "fields": {
+      "name": "Nicolas Cage",
+      "image_path": "static/survivors/nicolas_cage.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": 39,
+    "fields": {
+      "name": "Ellen Ripley",
+      "image_path": "static/survivors/ellen_ripley.jpg"
+    }
+  }
+]
