@@ -1,7 +1,7 @@
 # base image
 FROM python:3.9
 # setup environment variable
-ENV DockerHOME=/home/dbd_randomizer_service
+ENV DockerHOME=/workspace/dbd_randomizer_service
 
 # set work directory
 RUN mkdir -p $DockerHOME
