@@ -62,6 +62,7 @@ MIDDLEWARE = [
 #     'https://www.cryptorat.com',
 # ]
 
+
 def allowed_origins_func(request):
     return [
         'http://cryptorat.com',
