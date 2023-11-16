@@ -55,11 +55,23 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
 ]
 
-CORS_ORIGIN_WHITELIST = [
-    'http://cryptorat.com',
-    'https://cryptorat.com',
-    'http://www.cryptorat.com',
-    'https://www.cryptorat.com',
+# CORS_ORIGIN_WHITELIST = [
+#     'http://cryptorat.com',
+#     'https://cryptorat.com',
+#     'http://www.cryptorat.com',
+#     'https://www.cryptorat.com',
+# ]
+
+def allowed_origins_func(request):
+    return [
+        'http://cryptorat.com',
+        'https://cryptorat.com',
+        'http://www.cryptorat.com',
+        'https://www.cryptorat.com',
+    ]
+
+CORS_ALLOWED_ORIGINS = [
+    allowed_origins_func,
 ]
 
 ROOT_URLCONF = 'dbd_randomizer_service.urls'
