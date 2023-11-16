@@ -56,8 +56,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOW_CREDENTIALS = True
-
-CORS_ORIGIN_WHITELIST = [
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
     "http://cryptorat.com",
     "https://cryptorat.com",
     "http://www.cryptorat.com",
