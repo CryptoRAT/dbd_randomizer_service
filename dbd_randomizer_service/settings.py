@@ -51,15 +51,17 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    "corsheaders.middleware.CorsMiddleware",
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
 ]
 
+CORS_ALLOW_CREDENTIALS = True
+
 CORS_ORIGIN_WHITELIST = [
-    'http://cryptorat.com',
-    'https://cryptorat.com',
-    'http://www.cryptorat.com',
-    'https://www.cryptorat.com',
+    "http://cryptorat.com",
+    "https://cryptorat.com",
+    "http://www.cryptorat.com",
+    "https://www.cryptorat.com",
 ]
 
 
