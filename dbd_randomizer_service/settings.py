@@ -79,13 +79,13 @@ WSGI_APPLICATION = 'dbd_randomizer_service.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD", "False")
+DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD", "dev_password")
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'dbd-randomizer-db',
         'USER': 'dbd-randomizer-db',
-        'PASSWORD': 'my_password',
+        'PASSWORD': DATABASE_PASSWORD,
         'HOST': 'app-62604efd-54fe-40b7-857b-1a943a172beb-do-user-1765928-0.c.db.ondigitalocean.com',
         'PORT': '25060',
     }
