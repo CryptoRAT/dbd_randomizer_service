@@ -27,7 +27,12 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", get_random_secret_key())
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", "127.0.0.1,localhost,clownfish-app-8qi77.ondigitalocean.app,www.cryptorat.com,cryptorat.com").split(",")
+ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS",
+                          "127.0.0.1,"
+                          "localhost,"
+                          "clownfish-app-8qi77.ondigitalocean.app,"
+                          "https://www.cryptorat.com,"
+                          "https://cryptorat.com").split(",")
 
 
 # Application definition
@@ -56,11 +61,9 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
-    "http://cryptorat.com",
     "https://cryptorat.com",
-    "http://www.cryptorat.com",
     "https://www.cryptorat.com",
 ]
 
