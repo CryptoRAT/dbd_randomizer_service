@@ -1,0 +1,122 @@
+[
+  {
+    "model": "perk.Perk",
+    "pk": 118,
+    "fields": {
+      "name": "No One Left Behind",
+      "type": "Survivor",
+      "owner": "Generic",
+      "image_path": "static/perks/no_one_left_behind.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 119,
+    "fields": {
+      "name": "Hope",
+      "type": "Survivor",
+      "owner": "Generic",
+      "image_path": "static/perks/hope.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 120,
+    "fields": {
+      "name": "We'll Make It",
+      "type": "Survivor",
+      "owner": "Generic",
+      "image_path": "static/perks/well_make_it.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 121,
+    "fields": {
+      "name": "Lightweight",
+      "type": "Survivor",
+      "owner": "Generic",
+      "image_path": "static/perks/lightweight.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 122,
+    "fields": {
+      "name": "Deja Vu",
+      "type": "Survivor",
+      "owner": "Generic",
+      "image_path": "static/perks/deja_vu.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 123,
+    "fields": {
+      "name": "Dark Sense",
+      "type": "Survivor",
+      "owner": "Generic",
+      "image_path": "static/perks/dark_sense.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 124,
+    "fields": {
+      "name": "This Is Not Happeningr",
+      "type": "Survivor",
+      "owner": "Generic",
+      "image_path": "static/perks/this_is_not_happening.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 125,
+    "fields": {
+      "name": "Small Game",
+      "type": "Survivor",
+      "owner": "Generic",
+      "image_path": "static/perks/small_game.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 126,
+    "fields": {
+      "name": "Slippery Meat",
+      "type": "Survivor",
+      "owner": "Generic",
+      "image_path": "static/perks/slippery_meat.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 127,
+    "fields": {
+      "name": "Resilience",
+      "type": "Survivor",
+      "owner": "Generic",
+      "image_path": "static/perks/resilience.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 128,
+    "fields": {
+      "name": "Premonition",
+      "type": "Survivor",
+      "owner": "Generic",
+      "image_path": "static/perks/premonition.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 129,
+    "fields": {
+      "name": "Plunderer's Instinct",
+      "type": "Survivor",
+      "owner": "Generic",
+      "image_path": "static/perks/plunderers_instinct.webp"
+    }
+  }
+]
