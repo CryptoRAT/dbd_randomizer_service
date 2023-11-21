@@ -17,10 +17,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import re_path, reverse, include
 from rest_framework import routers
-from survivor import views
+from survivor import views as survivor_views
+from perk import views as perk_views
 
 router = routers.DefaultRouter()
-router.register(r'survivor', views.SurvivorView, 'survivor')
+router.register(r'survivor', survivor_views.SurvivorView, 'survivor')
+router.register(r'survivor-perks', perk_views.PerkView,'survivor-perks')
 
 urlpatterns = [
     re_path('admin/', admin.site.urls),

@@ -44,9 +44,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'survivor.apps.SurvivorsConfig',
     'corsheaders',
     'rest_framework',
+    'survivor.apps.SurvivorsConfig',
+    'perk.apps.PerksConfig',
 ]
 
 MIDDLEWARE = [
@@ -65,6 +66,8 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "https://cryptorat.com",
     "https://www.cryptorat.com",
+    "https://localhost:3000",
+    "http://localhost:3000",
 ]
 
 ROOT_URLCONF = 'dbd_randomizer_service.urls'
@@ -92,8 +95,13 @@ WSGI_APPLICATION = 'dbd_randomizer_service.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD", "dev_password")
+
 DATABASES = {
     'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    },
+    'production': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'dbd-randomizer-db',
         'USER': 'dbd-randomizer-db',
@@ -144,8 +152,3 @@ STATICFILES_DIRS = (Path(BASE_DIR).joinpath('static'),)
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-CORS_ORIGIN_WHITELIST = [
-    'http://cryptorat.com',
-    'http://www.cryptorat.com'
-]
