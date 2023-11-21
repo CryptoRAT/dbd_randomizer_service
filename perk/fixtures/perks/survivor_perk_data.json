@@ -1,0 +1,1172 @@
+[
+  {
+    "model": "perk.Perk",
+    "pk": 1,
+    "fields": {
+      "name": "Ace in the Hole",
+      "type": "Survivor",
+      "owner": "Ace Visconti",
+      "image_path": "static/perks/ace_in_the_hole.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 2,
+    "fields": {
+      "name": "Open-Handed",
+      "type": "Survivor",
+      "owner": "Ace Visconti",
+      "image_path": "static/perks/open_handed.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 3,
+    "fields": {
+      "name": "Up the Ante",
+      "type": "Survivor",
+      "owner": "Ace Visconti",
+      "image_path": "static/perks/up_the_ante.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 4,
+    "fields": {
+      "name": "Bond",
+      "type": "Survivor",
+      "owner": "Dwight Fairfield",
+      "image_path": "static/perks/bond.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 5,
+    "fields": {
+      "name": "Prove Thyself",
+      "type": "Survivor",
+      "owner": "Dwight Fairfield",
+      "image_path": "static/perks/prove_thyself.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 6,
+    "fields": {
+      "name": "Leader",
+      "type": "Survivor",
+      "owner": "Dwight Fairfield",
+      "image_path": "static/perks/leader.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 7,
+    "fields": {
+      "name": "Adrenaline",
+      "type": "Survivor",
+      "owner": "Meg Thomas",
+      "image_path": "static/perks/adrenaline.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 8,
+    "fields": {
+      "name": "Quick & Quiet",
+      "type": "Survivor",
+      "owner": "Meg Thomas",
+      "image_path": "static/perks/quick_and_quiet.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 9,
+    "fields": {
+      "name": "Sprint Burst",
+      "type": "Survivor",
+      "owner": "Meg Thomas",
+      "image_path": "static/perks/sprint_burst.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 10,
+    "fields": {
+      "name": "Botany Knowledge",
+      "type": "Survivor",
+      "owner": "Claudette Morel",
+      "image_path": "static/perks/botany_knowledge.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 11,
+    "fields": {
+      "name": "Empathy",
+      "type": "Survivor",
+      "owner": "Claudette Morel",
+      "image_path": "static/perks/empathy.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 12,
+    "fields": {
+      "name": "Self-Care",
+      "type": "Survivor",
+      "owner": "Claudette Morel",
+      "image_path": "static/perks/self_care.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 13,
+    "fields": {
+      "name": "Calm Spirit",
+      "type": "Survivor",
+      "owner": "Jake Park",
+      "image_path": "static/perks/calm_spirit.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 14,
+    "fields": {
+      "name": "Iron Will",
+      "type": "Survivor",
+      "owner": "Jake Park",
+      "image_path": "static/perks/iron_will.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 15,
+    "fields": {
+      "name": "Saboteur",
+      "type": "Survivor",
+      "owner": "Jake Park",
+      "image_path": "static/perks/saboteur.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 16,
+    "fields": {
+      "name": "Balanced Landing",
+      "type": "Survivor",
+      "owner": "Nea Karlsson",
+      "image_path": "static/perks/balanced_landing.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 17,
+    "fields": {
+      "name": "Streetwise",
+      "type": "Survivor",
+      "owner": "Nea Karlsson",
+      "image_path": "static/perks/streetwise.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 18,
+    "fields": {
+      "name": "Urban Evasion",
+      "type": "Survivor",
+      "owner": "Nea Karlsson",
+      "image_path": "static/perks/urban_evasion.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 19,
+    "fields": {
+      "name": "Decisive Strike",
+      "type": "Survivor",
+      "owner": "Laurie Strode",
+      "image_path": "static/perks/decisive_strike.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 20,
+    "fields": {
+      "name": "Object of Obsession",
+      "type": "Survivor",
+      "owner": "Laurie Strode",
+      "image_path": "static/perks/object_of_obsession.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 21,
+    "fields": {
+      "name": "Sole Survivor",
+      "type": "Survivor",
+      "owner": "Laurie Strode",
+      "image_path": "static/perks/sole_survivor.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 22,
+    "fields": {
+      "name": "Borrowed Time",
+      "type": "Survivor",
+      "owner": "William \"Bill\" Overbeck",
+      "image_path": "static/perks/borrowed_time.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 23,
+    "fields": {
+      "name": "Left Behind",
+      "type": "Survivor",
+      "owner": "William \"Bill\" Overbeck",
+      "image_path": "static/perks/left_behind.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 24,
+    "fields": {
+      "name": "Unbreakable",
+      "type": "Survivor",
+      "owner": "William \"Bill\" Overbeck",
+      "image_path": "static/perks/unbreakable.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 25,
+    "fields": {
+      "name": "Alert",
+      "type": "Survivor",
+      "owner": "Feng Min",
+      "image_path": "static/perks/alert.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 26,
+    "fields": {
+      "name": "Lithe",
+      "type": "Survivor",
+      "owner": "Feng Min",
+      "image_path": "static/perks/lithe.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 27,
+    "fields": {
+      "name": "Technician",
+      "type": "Survivor",
+      "owner": "Feng Min",
+      "image_path": "static/perks/technician.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 28,
+    "fields": {
+      "name": "Dead Hard",
+      "type": "Survivor",
+      "owner": "David King",
+      "image_path": "static/perks/dead_hard.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 29,
+    "fields": {
+      "name": "No Mither",
+      "type": "Survivor",
+      "owner": "David King",
+      "image_path": "static/perks/no_mither.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 30,
+    "fields": {
+      "name": "We're Gonna Live Forever",
+      "type": "Survivor",
+      "owner": "David King",
+      "image_path": "static/perks/were_gonna_live_forever.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 31,
+    "fields": {
+      "name": "Vigil",
+      "type": "Survivor",
+      "owner": "Quentin Smith",
+      "image_path": "static/perks/vigil.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 32,
+    "fields": {
+      "name": "Pharmacy",
+      "type": "Survivor",
+      "owner": "Quentin Smith",
+      "image_path": "static/perks/pharmacy.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 33,
+    "fields": {
+      "name": "Wake Up!",
+      "type": "Survivor",
+      "owner": "Quentin Smith",
+      "image_path": "static/perks/wake_up.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 34,
+    "fields": {
+      "name": "Detective's Hunch",
+      "type": "Survivor",
+      "owner": "Detective David Tapp",
+      "image_path": "static/perks/detectives_hunch.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 35,
+    "fields": {
+      "name": "Stake Out",
+      "type": "Survivor",
+      "owner": "Detective David Tapp",
+      "image_path": "static/perks/stake_out.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 36,
+    "fields": {
+      "name": "Tenacity",
+      "type": "Survivor",
+      "owner": "Detective David Tapp",
+      "image_path": "static/perks/tenacity.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 37,
+    "fields": {
+      "name": "Boil Over",
+      "type": "Survivor",
+      "owner": "Kate Denson",
+      "image_path": "static/perks/boil_over.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 38,
+    "fields": {
+      "name": "Windows of Opportunity",
+      "type": "Survivor",
+      "owner": "Kate Denson",
+      "image_path": "static/perks/windows_of_opportunity.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 39,
+    "fields": {
+      "name": "Dance With Me",
+      "type": "Survivor",
+      "owner": "Kate Denson",
+      "image_path": "static/perks/dance_with_me.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 40,
+    "fields": {
+      "name": "Autodidact",
+      "type": "Survivor",
+      "owner": "Adam Francis",
+      "image_path": "static/perks/autodidact.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 41,
+    "fields": {
+      "name": "Deliverance",
+      "type": "Survivor",
+      "owner": "Adam Francis",
+      "image_path": "static/perks/deliverance.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 42,
+    "fields": {
+      "name": "Diversion",
+      "type": "Survivor",
+      "owner": "Adam Francis",
+      "image_path": "static/perks/diversion.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 43,
+    "fields": {
+      "name": "Aftercare",
+      "type": "Survivor",
+      "owner": "Jeffrey \"Jeff\" Johansen",
+      "image_path": "static/perks/aftercare.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 44,
+    "fields": {
+      "name": "Breakdown",
+      "type": "Survivor",
+      "owner": "Jeffrey \"Jeff\" Johansen",
+      "image_path": "static/perks/breakdown.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 45,
+    "fields": {
+      "name": "Distortion",
+      "type": "Survivor",
+      "owner": "Jeffrey \"Jeff\" Johansen",
+      "image_path": "static/perks/distortion.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 46,
+    "fields": {
+      "name": "Head On",
+      "type": "Survivor",
+      "owner": "Jane Romero",
+      "image_path": "static/perks/head_on.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 47,
+    "fields": {
+      "name": "Poised",
+      "type": "Survivor",
+      "owner": "Jane Romero",
+      "image_path": "static/perks/poised.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 48,
+    "fields": {
+      "name": "Solidarity",
+      "type": "Survivor",
+      "owner": "Jane Romero",
+      "image_path": "static/perks/solidarity.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 49,
+    "fields": {
+      "name": "Buckle Up",
+      "type": "Survivor",
+      "owner": "Ashley J. Williams",
+      "image_path": "static/perks/buckle_up.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 50,
+    "fields": {
+      "name": "Flip-Flop",
+      "type": "Survivor",
+      "owner": "Ashley J. Williams",
+      "image_path": "static/perks/flip_flop.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 51,
+    "fields": {
+      "name": "Mettle of Man",
+      "type": "Survivor",
+      "owner": "Ashley J. Williams",
+      "image_path": "static/perks/mettle_of_man.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 52,
+    "fields": {
+      "name": "Better Together",
+      "type": "Survivor",
+      "owner": "Nancy Wheeler",
+      "image_path": "static/perks/better_together.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 53,
+    "fields": {
+      "name": "Fixated",
+      "type": "Survivor",
+      "owner": "Nancy Wheeler",
+      "image_path": "static/perks/fixated.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 54,
+    "fields": {
+      "name": "Inner Strength",
+      "type": "Survivor",
+      "owner": "Nancy Wheeler",
+      "image_path": "static/perks/inner_strength.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 55,
+    "fields": {
+      "name": "Babysitter",
+      "type": "Survivor",
+      "owner": "Steve Harrington",
+      "image_path": "static/perks/babysitter.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 56,
+    "fields": {
+      "name": "Camaraderie",
+      "type": "Survivor",
+      "owner": "Steve Harrington",
+      "image_path": "static/perks/camaraderie.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 57,
+    "fields": {
+      "name": "Second Wind",
+      "type": "Survivor",
+      "owner": "Steve Harrington",
+      "image_path": "static/perks/second_wind.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 58,
+    "fields": {
+      "name": "Any Means Necessary",
+      "type": "Survivor",
+      "owner": "Yui Kimura",
+      "image_path": "static/perks/any_means_necessary.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 59,
+    "fields": {
+      "name": "Breakout",
+      "type": "Survivor",
+      "owner": "Yui Kimura",
+      "image_path": "static/perks/breakout.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 60,
+    "fields": {
+      "name": "Lucky Break",
+      "type": "Survivor",
+      "owner": "Yui Kimura",
+      "image_path": "static/perks/lucky_break.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 61,
+    "fields": {
+      "name": "For the People",
+      "type": "Survivor",
+      "owner": "Zarina Kassir",
+      "image_path": "static/perks/for_the_people.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 62,
+    "fields": {
+      "name": "Off the Record",
+      "type": "Survivor",
+      "owner": "Zarina Kassir",
+      "image_path": "static/perks/off_the_record.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 63,
+    "fields": {
+      "name": "Red Herring",
+      "type": "Survivor",
+      "owner": "Zarina Kassir",
+      "image_path": "static/perks/red_herring.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 64,
+    "fields": {
+      "name": "Blood Pact",
+      "type": "Survivor",
+      "owner": "Cheryl Mason",
+      "image_path": "static/perks/blood_pact.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 65,
+    "fields": {
+      "name": "Repressed Alliance",
+      "type": "Survivor",
+      "owner": "Cheryl Mason",
+      "image_path": "static/perks/repressed_alliance.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 66,
+    "fields": {
+      "name": "Soul Guard",
+      "type": "Survivor",
+      "owner": "Cheryl Mason",
+      "image_path": "static/perks/soul_guard.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 67,
+    "fields": {
+      "name": "Built to Last",
+      "type": "Survivor",
+      "owner": "Felix Richter",
+      "image_path": "static/perks/built_to_last.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 68,
+    "fields": {
+      "name": "Desperate Measures",
+      "type": "Survivor",
+      "owner": "Felix Richter",
+      "image_path": "static/perks/desparate_measures.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 69,
+    "fields": {
+      "name": "Visionary",
+      "type": "Survivor",
+      "owner": "Felix Richter",
+      "image_path": "static/perks/visionary.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 70,
+    "fields": {
+      "name": "Power Struggle",
+      "type": "Survivor",
+      "owner": "Élodie Rakoto",
+      "image_path": "static/perks/power_struggle.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 71,
+    "fields": {
+      "name": "Appraisal",
+      "type": "Survivor",
+      "owner": "Élodie Rakoto",
+      "image_path": "static/perks/appraisal.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 72,
+    "fields": {
+      "name": "Deception",
+      "type": "Survivor",
+      "owner": "Élodie Rakoto",
+      "image_path": "static/perks/deception.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 73,
+    "fields": {
+      "name": "Fast Track",
+      "type": "Survivor",
+      "owner": "Yun-Jin Lee",
+      "image_path": "static/perks/fast_track.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 74,
+    "fields": {
+      "name": "Self-Preservation",
+      "type": "Survivor",
+      "owner": "Yun-Jin Lee",
+      "image_path": "static/perks/self_preservation.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 75,
+    "fields": {
+      "name": "Smash Hit",
+      "type": "Survivor",
+      "owner": "Yun-Jin Lee",
+      "image_path": "static/perks/smash_hit.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 76,
+    "fields": {
+      "name": "Blast Mine",
+      "type": "Survivor",
+      "owner": "Jill Valentine",
+      "image_path": "static/perks/blast_mine.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 77,
+    "fields": {
+      "name": "Counterforce",
+      "type": "Survivor",
+      "owner": "Jill Valentine",
+      "image_path": "static/perks/counterforce.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 78,
+    "fields": {
+      "name": "Resurgence",
+      "type": "Survivor",
+      "owner": "Jill Valentine",
+      "image_path": "static/perks/resurgence.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 79,
+    "fields": {
+      "name": "Bite the Bullet",
+      "type": "Survivor",
+      "owner": "Leon Scott Kennedy",
+      "image_path": "static/perks/bite_the_bullet.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 80,
+    "fields": {
+      "name": "Flashbang",
+      "type": "Survivor",
+      "owner": "Leon Scott Kennedy",
+      "image_path": "static/perks/flashbang.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 81,
+    "fields": {
+      "name": "Rookie Spirit",
+      "type": "Survivor",
+      "owner": "Leon Scott Kennedy",
+      "image_path": "static/perks/rookie_spirit.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 82,
+    "fields": {
+      "name": "Boon: Circle of Healing",
+      "type": "Survivor",
+      "owner": "Mikaela Reid",
+      "image_path": "static/perks/boon_cirle_of_healing.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 83,
+    "fields": {
+      "name": "Boon: Shadow Step",
+      "type": "Survivor",
+      "owner": "Mikaela Reid",
+      "image_path": "static/perks/boon_shadow_step.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 84,
+    "fields": {
+      "name": "Clairvoyance",
+      "type": "Survivor",
+      "owner": "Mikaela Reid",
+      "image_path": "static/perks/clairvoyance.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 85,
+    "fields": {
+      "name": "Boon: Exponential",
+      "type": "Survivor",
+      "owner": "Jonah Vasquez",
+      "image_path": "static/perks/boon_exponential.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 86,
+    "fields": {
+      "name": "Corrective Action",
+      "type": "Survivor",
+      "owner": "Jonah Vasquez",
+      "image_path": "static/perks/corrective_action.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 87,
+    "fields": {
+      "name": "Overcome",
+      "type": "Survivor",
+      "owner": "Jonah Vasquez",
+      "image_path": "static/perks/overcome.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 88,
+    "fields": {
+      "name": "Boon: Dark Theory",
+      "type": "Survivor",
+      "owner": "Yoichi Asakawa",
+      "image_path": "static/perks/boon_dark_theory.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 89,
+    "fields": {
+      "name": "Empathic Connection",
+      "type": "Survivor",
+      "owner": "Yoichi Asakawa",
+      "image_path": "static/perks/empathic_connection.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 90,
+    "fields": {
+      "name": "Parental Guidance",
+      "type": "Survivor",
+      "owner": "Yoichi Asakawa",
+      "image_path": "static/perks/parental_guidance.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 91,
+    "fields": {
+      "name": "Inner Focus",
+      "type": "Survivor",
+      "owner": "Haddie Kaur",
+      "image_path": "static/perks/inner_focus.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 92,
+    "fields": {
+      "name": "Overzealous",
+      "type": "Survivor",
+      "owner": "Haddie Kaur",
+      "image_path": "static/perks/overzealous.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 93,
+    "fields": {
+      "name": "Residual Manifest",
+      "type": "Survivor",
+      "owner": "Haddie Kaur",
+      "image_path": "static/perks/residual_manifest.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 94,
+    "fields": {
+      "name": "Low Profile",
+      "type": "Survivor",
+      "owner": "Ada Wong",
+      "image_path": "static/perks/low_profile.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 95,
+    "fields": {
+      "name": "Reactive Healing",
+      "type": "Survivor",
+      "owner": "Ada Wong",
+      "image_path": "static/perks/reactive_healing.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 96,
+    "fields": {
+      "name": "Wiretap",
+      "type": "Survivor",
+      "owner": "Ada Wong",
+      "image_path": "static/perks/wiretap.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 97,
+    "fields": {
+      "name": "Better Than New",
+      "type": "Survivor",
+      "owner": "Rebecca Chambers",
+      "image_path": "static/perks/better_than_new.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 98,
+    "fields": {
+      "name": "Hyperfocus",
+      "type": "Survivor",
+      "owner": "Rebecca Chambers",
+      "image_path": "static/perks/hyperfocus.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 99,
+    "fields": {
+      "name": "Reassurance",
+      "type": "Survivor",
+      "owner": "Rebecca Chambers",
+      "image_path": "static/perks/reassurance.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 100,
+    "fields": {
+      "name": "Fogwise",
+      "type": "Survivor",
+      "owner": "Vittorio Toscano",
+      "image_path": "static/perks/fogwise.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 101,
+    "fields": {
+      "name": "Potential Energy",
+      "type": "Survivor",
+      "owner": "Vittorio Toscano",
+      "image_path": "static/perks/potential_energy.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 102,
+    "fields": {
+      "name": "Quick Gambit",
+      "type": "Survivor",
+      "owner": "Vittorio Toscano",
+      "image_path": "static/perks/quick_gambit.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 103,
+    "fields": {
+      "name": "Cut Loose",
+      "type": "Survivor",
+      "owner": "Thalita Lyra",
+      "image_path": "static/perks/cut_loose.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 104,
+    "fields": {
+      "name": "Friendly Competition",
+      "type": "Survivor",
+      "owner": "Thalita Lyra",
+      "image_path": "static/perks/friendly_competition.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 105,
+    "fields": {
+      "name": "Teamwork: Power of Two",
+      "type": "Survivor",
+      "owner": "Thalita Lyra",
+      "image_path": "static/perks/teamwork_power_of_two.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 106,
+    "fields": {
+      "name": "Background Player",
+      "type": "Survivor",
+      "owner": "Renato Lyra",
+      "image_path": "static/perks/background_player.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 107,
+    "fields": {
+      "name": "Blood Rush",
+      "type": "Survivor",
+      "owner": "Renato Lyra",
+      "image_path": "static/perks/blood_rush.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 108,
+    "fields": {
+      "name": "Teamwork: Collective Stealth",
+      "type": "Survivor",
+      "owner": "Renato Lyra",
+      "image_path": "static/perks/teamwork_collective_stealth.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 109,
+    "fields": {
+      "name": "Troubleshooter",
+      "type": "Survivor",
+      "owner": "Gabriel Soma",
+      "image_path": "static/perks/troubleshooter.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 110,
+    "fields": {
+      "name": "Made for This",
+      "type": "Survivor",
+      "owner": "Gabriel Soma",
+      "image_path": "static/perks/made_for_this.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 111,
+    "fields": {
+      "name": "Scavenger",
+      "type": "Survivor",
+      "owner": "Gabriel Soma",
+      "image_path": "static/perks/scavenger.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 112,
+    "fields": {
+      "name": "Plot Twist",
+      "type": "Survivor",
+      "owner": "Nicolas Cage",
+      "image_path": "static/perks/plot_twist.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 113,
+    "fields": {
+      "name": "Dramaturgy",
+      "type": "Survivor",
+      "owner": "Nicolas Cage",
+      "image_path": "static/perks/dramaturgy.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 114,
+    "fields": {
+      "name": "Scene Partner",
+      "type": "Survivor",
+      "owner": "Nicolas Cage",
+      "image_path": "static/perks/scene_partner.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 115,
+    "fields": {
+      "name": "Chemical Trap",
+      "type": "Survivor",
+      "owner": "Ellen Ripley",
+      "image_path": "static/perks/chemical_trap.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 116,
+    "fields": {
+      "name": "Light-footed",
+      "type": "Survivor",
+      "owner": "Ellen Ripley",
+      "image_path": "static/perks/light_footed.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": 117,
+    "fields": {
+      "name": "Lucky Star",
+      "type": "Survivor",
+      "owner": "Ellen Ripley",
+      "image_path": "static/perks/lucky_star.webp"
+    }
+  }
+]
