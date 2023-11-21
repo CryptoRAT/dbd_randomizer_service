@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ('perk', '0001_initial'),
-        ('perk', '002_add_perk_data')
+        ('perk', '0002_add_perk_data')
     ]
 
     operations = [
