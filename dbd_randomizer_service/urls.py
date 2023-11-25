@@ -21,8 +21,12 @@ from survivor import views as survivor_views
 from perk import views as perk_views
 
 router = routers.DefaultRouter()
+router.register(r'survivor/perks/random', perk_views.RandomSurvivorPerkView, 'random-survivor-perks')
+router.register(r'killer/perks/random', perk_views.RandomKillerPerkView, 'random-killer-perks')
+router.register(r'survivor/random', survivor_views.RandomSurvivorView, 'random-survivor')
+router.register(r'survivor/perks', perk_views.PerkView,'survivor-perks')
+router.register(r'killer/perks', perk_views.KillerPerkView, 'killer-perks')
 router.register(r'survivor', survivor_views.SurvivorView, 'survivor')
-router.register(r'survivor-perks', perk_views.PerkView,'survivor-perks')
 
 urlpatterns = [
     re_path('admin/', admin.site.urls),
