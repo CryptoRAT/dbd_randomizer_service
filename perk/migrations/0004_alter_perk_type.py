@@ -6,6 +6,8 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
+        ('perk', '0001_initial'),
+        ('perk', '0002_add_perk_data'),
         ('perk', '0003_add_general_perk_data'),
     ]
 
