@@ -23,8 +23,6 @@ class KillerPerkView(viewsets.ModelViewSet):
 class RandomSurvivorPerkView(viewsets.ModelViewSet):
     serializer_class = PerkSerializer
     queryset = Perk.objects.filter(type="Survivor").order_by('?')[:4]
-    print(queryset)
-    queryset = Perk.objects.filter(type="Survivor").order_by('?')[:4]
 
 
 class RandomKillerPerkView(viewsets.ModelViewSet):
