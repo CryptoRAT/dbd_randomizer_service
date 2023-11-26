@@ -24,7 +24,7 @@ router = routers.DefaultRouter()
 router.register(r'survivor/perks/random', perk_views.RandomSurvivorPerkView, 'random-survivor-perks')
 router.register(r'killer/perks/random', perk_views.RandomKillerPerkView, 'random-killer-perks')
 router.register(r'survivor/random', survivor_views.RandomSurvivorView, 'random-survivor')
-router.register(r'survivor/perks', perk_views.PerkView,'survivor-perks')
+router.register(r'survivor/perks', perk_views.PerkView, 'survivor-perks')  # Updated endpoint for CRUD operations
 router.register(r'killer/perks', perk_views.KillerPerkView, 'killer-perks')
 router.register(r'survivor', survivor_views.SurvivorView, 'survivor')
 

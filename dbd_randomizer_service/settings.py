@@ -14,6 +14,7 @@ from pathlib import Path
 import os
 from django.core.management.utils import get_random_secret_key
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -153,3 +154,14 @@ STATICFILES_DIRS = (Path(BASE_DIR).joinpath('static'),)
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# Override default settings based on environment
+ENVIRONMENT = os.environ.get('DJANGO_ENV', 'development')
+
+if ENVIRONMENT == 'production':
+    from .settings_prod import *
+elif ENVIRONMENT == 'test':
+    from .settings_test import *
+else:
+    from .settings_dev import *

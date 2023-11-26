@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+
 class Perk(models.Model):
     name = models.CharField(max_length=120)
     owner = models.CharField(max_length=30)
