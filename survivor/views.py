@@ -45,9 +45,10 @@ class SurvivorView(viewsets.ModelViewSet):
         survivor.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
+
 class RandomSurvivorView(viewsets.ModelViewSet):
-    serializer_class = SurvivorSerializer
-    queryset = Survivor.objects.all().order_by('?')[:1]
 
-
-
+    def random(self, request, *args, **kwargs):
+        survivor = Survivor.objects.order_by('?').first()
+        serializer = SurvivorSerializer(survivor)
+        return Response(serializer.data, status=status.HTTP_200_OK)
