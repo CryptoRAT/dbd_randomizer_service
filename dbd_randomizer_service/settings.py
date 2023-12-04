@@ -74,6 +74,7 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "https://cryptorat.com",
     "https://www.cryptorat.com",
+    "clownfish-app-8qi77.ondigitalocean.app",
     "https://localhost:3000",
     "http://localhost:3000",
 ]
