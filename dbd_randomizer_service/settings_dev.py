@@ -1,0 +1,10 @@
+CSRF_COOKIE_SAMESITE = 'None'
+CSRF_COOKIE_SECURE = False
+RUN_SERVER_SSL = "/Users/lukelliot/certs/cert.crt"
+RUN_SERVER_SSL_KEY = "/Users/lukelliot/certs/key.key"
+DEBUG = True
+ALLOWED_HOSTS = ['localhost', 'cryptorat.com', 'www.cryptorat.com']
+CSRF_COOKIE_DOMAIN = 'localhost'
+CSRF_TRUSTED_ORIGINS = ['http://localhost:3000', 'https://localhost:3000', 'https://cryptorat.com', 'https://www.cryptorat.com']
+CSRF_ALLOWED_ORIGINS = ['http://localhost:3000', 'https://localhost:3000', 'https://cryptorat.com', 'https://www.cryptorat.com']
+CORS_ORIGINS_WHITELIST = ['http://localhost:3000', 'https://localhost:3000', 'https://cryptorat.com', 'https://www.cryptorat.com']

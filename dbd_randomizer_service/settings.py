@@ -48,19 +48,24 @@ INSTALLED_APPS = [
     'corsheaders',
     'django_extensions',
     'rest_framework',
+    'rest_framework.authtoken',
+    'dj_rest_auth',
+    'dj_rest_auth.registration',
+    'user.apps.UsersConfig',
     'survivor.apps.SurvivorsConfig',
     'perk.apps.PerksConfig',
 ]
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'user.middleware.RequestMiddleware',
 ]
 
 CORS_ALLOW_CREDENTIALS = True
@@ -158,6 +163,18 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Override default settings based on environment
 ENVIRONMENT = os.environ.get('DJANGO_ENV', 'development')
+
+
+# A hasher to use for encoding passwords. This will fall back to the first hasher I think.
+PASSWORD_HASHERS = [
+    'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
+]
+AUTH_USER_MODEL = 'user.RegisteredUser'
+
+CSRF_COOKIE_SECURE = True
+CSRF_COOKIE_HTTPONLY = True
+
+
 
 if ENVIRONMENT == 'production':
     from .settings_prod import *
