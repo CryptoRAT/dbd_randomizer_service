@@ -47,13 +47,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'django_extensions',
+    'user.apps.UsersConfig',
+    'survivor.apps.SurvivorsConfig',
+    'perk.apps.PerksConfig',
     'rest_framework',
     'rest_framework.authtoken',
     'dj_rest_auth',
     'dj_rest_auth.registration',
-    'user.apps.UsersConfig',
-    'survivor.apps.SurvivorsConfig',
-    'perk.apps.PerksConfig',
+
 ]
 
 MIDDLEWARE = [
@@ -174,7 +175,7 @@ AUTH_USER_MODEL = 'user.RegisteredUser'
 CSRF_COOKIE_SECURE = True
 CSRF_COOKIE_HTTPONLY = True
 
-
+REST_USE_JWT = True
 
 if ENVIRONMENT == 'production':
     from .settings_prod import *

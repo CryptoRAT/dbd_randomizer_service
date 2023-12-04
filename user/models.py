@@ -33,3 +33,4 @@ class RegisteredUser(AbstractBaseUser):
 
     def __str__(self):
         return self.email
+
