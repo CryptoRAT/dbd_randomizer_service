@@ -178,7 +178,7 @@ CSRF_COOKIE_HTTPONLY = True
 
 REST_USE_JWT = True
 
-ENVIRONMENT = 'development'
+ENVIRONMENT = 'production'
 
 if ENVIRONMENT == 'production':
     from .settings_prod import *
