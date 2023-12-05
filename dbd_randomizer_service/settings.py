@@ -31,7 +31,7 @@ DEBUG = os.getenv("DEBUG", "False") == "True"
 ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS",
                           "127.0.0.1,"
                           "localhost,"
-                          "clownfish-app-8qi77.ondigitalocean.app,"
+                          "https://clownfish-app-8qi77.ondigitalocean.app,"
                           "https://www.cryptorat.com,"
                           "https://cryptorat.com").split(",")
 
@@ -74,7 +74,7 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "https://cryptorat.com",
     "https://www.cryptorat.com",
-    "clownfish-app-8qi77.ondigitalocean.app",
+    "https://clownfish-app-8qi77.ondigitalocean.app",
     "https://localhost:3000",
     "http://localhost:3000",
 ]
@@ -178,7 +178,7 @@ CSRF_COOKIE_HTTPONLY = True
 
 REST_USE_JWT = True
 
-ENVIRONMENT = 'production'
+ENVIRONMENT = 'development'
 
 if ENVIRONMENT == 'production':
     from .settings_prod import *
