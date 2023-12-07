@@ -17,8 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import re_path, include
 from rest_framework import routers
-from survivor import views as survivor_views
-from perk import views as perk_views
+from rest_framework_simplejwt.views import TokenObtainPairView
 
 router = routers.DefaultRouter()
 
@@ -28,4 +27,5 @@ urlpatterns = [
     re_path('api/', include(router.urls)),
     re_path('api/survivor/', include('survivor.urls')),
     re_path('api/perk/', include('perk.urls')),
+    re_path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
 ]

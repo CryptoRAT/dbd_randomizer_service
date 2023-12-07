@@ -58,6 +58,12 @@ INSTALLED_APPS = [
 
 ]
 
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+}
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -176,7 +182,7 @@ AUTH_USER_MODEL = 'user.RegisteredUser'
 
 CSRF_COOKIE_SECURE = True
 CSRF_COOKIE_HTTPONLY = True
-
+CSRF_COOKIE_NAME = "csrftoken"
 REST_USE_JWT = True
 
 ENVIRONMENT = 'production'
