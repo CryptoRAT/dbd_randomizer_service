@@ -1,8 +1,8 @@
 from django.urls import re_path
-from . import views
-from .views import UserRegistrationView
+from . import views as user_views
 
 urlpatterns = [
-    re_path('login/', views.login_view, name='login'),
-    re_path(r'register/', UserRegistrationView.as_view(), name='register'),
+    # re_path('login/', user_views.login_view.as_view(), name='login'),
+    re_path(r'register/', user_views.RegisteredUserViewSet.as_view({'post': 'create'}), name='register'),
+
 ]

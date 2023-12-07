@@ -1,13 +1,13 @@
-from django.views.decorators.csrf import csrf_protect
+from django.views.decorators.csrf import csrf_protect, csrf_exempt
 from rest_framework import status, viewsets
+from rest_framework.decorators import authentication_classes, permission_classes
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.response import Response
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from .models import RegisteredUser
-from django.shortcuts import render
 from django.views import View
 from .serializers import UserRegistrationSerializer, RegisteredUserSerializer
-
+import pdb
 
 class RegisteredUserViewSet(viewsets.ModelViewSet):
     queryset = RegisteredUser.objects.all()
@@ -28,12 +28,15 @@ class RegisteredUserViewSet(viewsets.ModelViewSet):
     def create(self, request, *args, **kwargs):
         email = request.data.get('email')
         password = request.data.get('password')
-        name = request.data.get('name')
+        confirm_password = request.data.get('confirmPassword')
+        display_name = request.data.get('displayName')
 
-        if not email or not password or not name:
-            return Response({'error': 'Email, password, and name are required'}, status=status.HTTP_400_BAD_REQUEST)
+        if not email or not password or not display_name or not confirm_password:
+            return Response({'error': 'Email, password, confirm password and name are required'}, status=status.HTTP_400_BAD_REQUEST)
 
-        serializer = self.get_serializer(data={'email': email, 'password': password, 'name': name})
+        if password != confirm_password:
+            return Response({'error': 'Passwords do not match'}, status=status.HTTP_400_BAD_REQUEST)
+        serializer = self.get_serializer(data={'email': email, 'password': password, 'name': display_name})
         serializer.is_valid(raise_exception=True)
         self.perform_create(serializer)
 
@@ -42,21 +45,47 @@ class RegisteredUserViewSet(viewsets.ModelViewSet):
 
 
 class UserRegistrationView(View):
-    authentication_classes = []
-    permission_classes = []
-
-    def post(self, request, *args, **kwargs):
+    @authentication_classes([])  # Empty list to disable authentication
+    @permission_classes([])  # Empty list to disable permission checks
+    @csrf_exempt
+    def create(self, request, *args, **kwargs):
         serializer = UserRegistrationSerializer(data=request.data)
 
         if serializer.is_valid():
-            # Call your registration logic here, e.g., create a user
-            # You might need to implement this logic or use Django's built-in User model
-            # ...
+            # Create a new user using Django's User model
+            username = serializer.validated_data['username']
+            password = serializer.validated_data['password']
+            display_name = serializer.validated_data['display_name']
+            email = serializer.validated_data['email']
+            new_user = RegisteredUser.objects.create_user(username=username,
+                                                          password=password,
+                                                          display_name=display_name,
+                                                          email=email)
 
             return Response({'message': 'Registration successful'}, status=status.HTTP_200_OK)
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-def login_view(request):
-    return render(request, 'login.html')
+def LoginView(request):
+    authentication_classes = []
+    permission_classes = []
+
+    @csrf_exempt
+    def login(self, request, *args, **kwargs):
+        serializer = UserRegistrationSerializer(data=request.data)
+
+        if serializer.is_valid():
+            # Create a new user using Django's User model
+            username = serializer.validated_data['username']
+            password = serializer.validated_data['password']
+            display_name = serializer.validated_data['display_name']
+            email = serializer.validated_data['email']
+            new_user = RegisteredUser.objects.create_user(username=username,
+                                                          password=password,
+                                                          display_name=display_name,
+                                                          email=email)
+
+            return Response({'message': 'Registration successful'}, status=status.HTTP_200_OK)
+
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

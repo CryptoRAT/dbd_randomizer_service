@@ -1,5 +1,6 @@
 CSRF_COOKIE_SAMESITE = 'None'
 CSRF_COOKIE_SECURE = False
+CORS_ALLOW_CREDENTIALS = True
 RUN_SERVER_SSL = "/Users/lukelliot/certs/cert.crt"
 RUN_SERVER_SSL_KEY = "/Users/lukelliot/certs/key.key"
 DEBUG = True
