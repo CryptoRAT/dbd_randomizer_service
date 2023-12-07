@@ -1,3 +1,5 @@
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
 from rest_framework import viewsets, status
 from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
@@ -49,6 +51,12 @@ class SurvivorView(viewsets.ModelViewSet):
 class RandomSurvivorView(viewsets.ModelViewSet):
 
     def random(self, request, *args, **kwargs):
-        survivor = Survivor.objects.order_by('?').first()
-        serializer = SurvivorSerializer(survivor)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+        if request.method == 'POST':
+            # Handle POST logic here
+            survivor = Survivor.objects.order_by('?').first()
+            serializer = SurvivorSerializer(survivor)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        else:
+            # Handle GET logic here
+            print("GET request successful")
+
