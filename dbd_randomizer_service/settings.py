@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'django_extensions',
     'user.apps.UsersConfig',
-    'survivor.apps.SurvivorsConfig',
+    'survivor.apps.SurvivorConfig',
     'perk.apps.PerksConfig',
     'rest_framework',
     'rest_framework.authtoken',

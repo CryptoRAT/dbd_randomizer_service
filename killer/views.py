@@ -2,14 +2,14 @@ from rest_framework import viewsets, status
 from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
 
-from .serializers import SurvivorSerializer
-from .models import Survivor
+from .serializers import KillerSerializer
+from .models import Killer
 
 
-class SurvivorView(viewsets.ModelViewSet):
+class KillerView(viewsets.ModelViewSet):
     parser_classes = [JSONParser]
-    serializer_class = SurvivorSerializer
-    queryset = Survivor.objects.all()
+    serializer_class = KillerSerializer
+    queryset = Killer.objects.all()
 
     def create(self, request, *args, **kwargs):
         name = request.data.get('name')
@@ -41,18 +41,18 @@ class SurvivorView(viewsets.ModelViewSet):
         return Response(serializer.data, status=status.HTTP_200_OK, headers=headers)
 
     def destroy(self, request, *args, **kwargs):
-        survivor = self.get_object()
-        survivor.delete()
+        killer = self.get_object()
+        killer.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
 
-class RandomSurvivorView(viewsets.ModelViewSet):
+class RandomKillerView(viewsets.ModelViewSet):
 
     def random(self, request, *args, **kwargs):
         if request.method == 'POST':
             # Handle POST logic here
-            survivor = Survivor.objects.order_by('?').first()
-            serializer = SurvivorSerializer(survivor)
+            survivor = Killer.objects.order_by('?').first()
+            serializer = KillerSerializer(survivor)
             return Response(serializer.data, status=status.HTTP_200_OK)
         else:
             # Handle GET logic here

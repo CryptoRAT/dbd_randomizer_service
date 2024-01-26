@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
       "name": "Ace Visconti",
-      "image_path": "static/survivors/ace_visconti.jpg"
+      "image_path": "../static/survivors/ace_visconti.jpg"
     }
   },
   {
@@ -12,7 +12,7 @@
     "pk": 2,
     "fields": {
       "name": "Dwight Fairfield",
-      "image_path": "static/survivors/dwight_fairfield.jpg"
+      "image_path": "../static/survivors/dwight_fairfield.jpg"
     }
   },
   {
@@ -20,7 +20,7 @@
     "pk": 3,
     "fields": {
       "name": "Meg Thomas",
-      "image_path": "static/survivors/meg_thomas.jpg"
+      "image_path": "../static/survivors/meg_thomas.jpg"
     }
   },
   {
@@ -28,7 +28,7 @@
     "pk": 4,
     "fields": {
       "name": "Claudette Morel",
-      "image_path": "static/survivors/claudette_morel.jpg"
+      "image_path": "../static/survivors/claudette_morel.jpg"
     }
   },
   {
@@ -36,7 +36,7 @@
     "pk": 5,
     "fields": {
       "name": "Jake Park",
-      "image_path": "static/survivors/jake_park.jpg"
+      "image_path": "../static/survivors/jake_park.jpg"
     }
   },
   {
@@ -44,7 +44,7 @@
     "pk": 6,
     "fields": {
       "name": "Nea Karlsson",
-      "image_path": "static/survivors/nea_karlsson.jpg"
+      "image_path": "../static/survivors/nea_karlsson.jpg"
     }
   },
   {
@@ -52,7 +52,7 @@
     "pk": 7,
     "fields": {
       "name": "Laurie Strode",
-      "image_path": "static/survivors/laurie_strode.jpg"
+      "image_path": "../static/survivors/laurie_strode.jpg"
     }
   },
   {
@@ -60,7 +60,7 @@
     "pk": 8,
     "fields": {
       "name": "William \"Bill\" Overbeck",
-      "image_path": "static/survivors/william_bill_overbeck.jpg"
+      "image_path": "../static/survivors/william_bill_overbeck.jpg"
     }
   },
   {

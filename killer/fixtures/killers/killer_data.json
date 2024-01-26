@@ -1,0 +1,274 @@
+[
+  {
+    "model": "killer.Killer",
+    "pk": 1,
+    "fields": {
+      "name": "The Good Guy",
+      "image_path": "../static/killers/the_good_guy.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 2,
+    "fields": {
+      "name": "The Artist",
+      "image_path": "../static/killers/the_artist.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 3,
+    "fields": {
+      "name": "The Blight",
+      "image_path": "../static/killers/the_blight.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 4,
+    "fields": {
+      "name": "The Cannibal",
+      "image_path": "../static/killers/the_cannibal.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 5,
+    "fields": {
+      "name": "The Cenobite",
+      "image_path": "../static/killers/the_cenobite.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 6,
+    "fields": {
+      "name": "The Clown",
+      "image_path": "../static/killers/the_clown.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 7,
+    "fields": {
+      "name": "The Deathslinger",
+      "image_path": "../static/killers/the_deathslinger.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 8,
+    "fields": {
+      "name": "The Demogorgon",
+      "image_path": "../static/killers/the_demogorgon.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 9,
+    "fields": {
+      "name": "The Doctor",
+      "image_path": "../static/killers/the_doctor.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 10,
+    "fields": {
+      "name": "The Dredge",
+      "image_path": "../static/killers/the_dredge.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 11,
+    "fields": {
+      "name": "The Executioner",
+      "image_path": "../static/killers/the_executioner.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 12,
+    "fields": {
+      "name": "The Ghost Face",
+      "image_path": "../static/killers/the_ghost_face.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 13,
+    "fields": {
+      "name": "The Hag",
+      "image_path": "../static/killers/the_hag.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 14,
+    "fields": {
+      "name": "The Hillbilly",
+      "image_path": "../static/killers/the_hillbilly.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 15,
+    "fields": {
+      "name": "The Huntress",
+      "image_path": "../static/killers/the_huntress.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 16,
+    "fields": {
+      "name": "The Knight",
+      "image_path": "../static/killers/the_knight.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 17,
+    "fields": {
+      "name": "The Legion",
+      "image_path": "../static/killers/the_legion.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 18,
+    "fields": {
+      "name": "The Mastermind",
+      "image_path": "../static/killers/the_mastermind.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 19,
+    "fields": {
+      "name": "The Nemesis",
+      "image_path": "../static/killers/the_nemesis.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 20,
+    "fields": {
+      "name": "The Nightmare",
+      "image_path": "../static/killers/the_nightmare.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 21,
+    "fields": {
+      "name": "The Nurse",
+      "image_path": "../static/killers/the_nurse.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 22,
+    "fields": {
+      "name": "The Oni",
+      "image_path": "../static/killers/the_oni.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 23,
+    "fields": {
+      "name": "The Onyro",
+      "image_path": "../static/killers/the_onyro.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 24,
+    "fields": {
+      "name": "The Pig",
+      "image_path": "../static/killers/the_pig.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 25,
+    "fields": {
+      "name": "The Plague",
+      "image_path": "../static/killers/the_plague.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 26,
+    "fields": {
+      "name": "The Shape",
+      "image_path": "../static/killers/the_shape.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 27,
+    "fields": {
+      "name": "The Singularity",
+      "image_path": "../static/killers/the_singularity.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 28,
+    "fields": {
+      "name": "The Skull Merchant",
+      "image_path": "../static/killers/the_skull_merchant.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 29,
+    "fields": {
+      "name": "The Spirit",
+      "image_path": "../static/killers/the_spirit.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 30,
+    "fields": {
+      "name": "The Trapper",
+      "image_path": "../static/killers/the_trapper.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 31,
+    "fields": {
+      "name": "The Trickster",
+      "image_path": "../static/killers/the_trickster.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 32,
+    "fields": {
+      "name": "The Twins",
+      "image_path": "../static/killers/the_twins.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 33,
+    "fields": {
+      "name": "The Wraith",
+      "image_path": "../static/killers/the_wraith.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": 34,
+    "fields": {
+      "name": "The Xenomorph",
+      "image_path": "../static/killers/the_xenomorph.webp"
+    }
+  }
+]
