@@ -49,10 +49,11 @@ class KillerView(viewsets.ModelViewSet):
 class RandomKillerView(viewsets.ModelViewSet):
 
     def random(self, request, *args, **kwargs):
+        print(request.method)
         if request.method == 'POST':
             # Handle POST logic here
-            survivor = Killer.objects.order_by('?').first()
-            serializer = KillerSerializer(survivor)
+            killer = Killer.objects.order_by('?').first()
+            serializer = KillerSerializer(killer)
             return Response(serializer.data, status=status.HTTP_200_OK)
         else:
             # Handle GET logic here

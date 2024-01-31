@@ -1,7 +1,7 @@
 [
   {
     "model": "killer.Killer",
-    "pk": 1,
+    "pk": null,
     "fields": {
       "name": "The Good Guy",
       "image_path": "../static/killers/the_good_guy.webp"
@@ -9,7 +9,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 2,
+    "pk": null,
     "fields": {
       "name": "The Artist",
       "image_path": "../static/killers/the_artist.webp"
@@ -17,7 +17,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 3,
+    "pk": null,
     "fields": {
       "name": "The Blight",
       "image_path": "../static/killers/the_blight.webp"
@@ -25,7 +25,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 4,
+    "pk": null,
     "fields": {
       "name": "The Cannibal",
       "image_path": "../static/killers/the_cannibal.webp"
@@ -33,7 +33,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 5,
+    "pk": null,
     "fields": {
       "name": "The Cenobite",
       "image_path": "../static/killers/the_cenobite.webp"
@@ -41,7 +41,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 6,
+    "pk": null,
     "fields": {
       "name": "The Clown",
       "image_path": "../static/killers/the_clown.webp"
@@ -49,7 +49,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 7,
+    "pk": null,
     "fields": {
       "name": "The Deathslinger",
       "image_path": "../static/killers/the_deathslinger.webp"
@@ -57,7 +57,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 8,
+    "pk": null,
     "fields": {
       "name": "The Demogorgon",
       "image_path": "../static/killers/the_demogorgon.webp"
@@ -65,7 +65,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 9,
+    "pk": null,
     "fields": {
       "name": "The Doctor",
       "image_path": "../static/killers/the_doctor.webp"
@@ -73,7 +73,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 10,
+    "pk": null,
     "fields": {
       "name": "The Dredge",
       "image_path": "../static/killers/the_dredge.webp"
@@ -81,7 +81,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 11,
+    "pk": null,
     "fields": {
       "name": "The Executioner",
       "image_path": "../static/killers/the_executioner.webp"
@@ -89,7 +89,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 12,
+    "pk": null,
     "fields": {
       "name": "The Ghost Face",
       "image_path": "../static/killers/the_ghost_face.webp"
@@ -97,7 +97,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 13,
+    "pk": null,
     "fields": {
       "name": "The Hag",
       "image_path": "../static/killers/the_hag.webp"
@@ -105,7 +105,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 14,
+    "pk": null,
     "fields": {
       "name": "The Hillbilly",
       "image_path": "../static/killers/the_hillbilly.webp"
@@ -113,7 +113,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 15,
+    "pk": null,
     "fields": {
       "name": "The Huntress",
       "image_path": "../static/killers/the_huntress.webp"
@@ -121,7 +121,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 16,
+    "pk": null,
     "fields": {
       "name": "The Knight",
       "image_path": "../static/killers/the_knight.webp"
@@ -129,7 +129,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 17,
+    "pk": null,
     "fields": {
       "name": "The Legion",
       "image_path": "../static/killers/the_legion.webp"
@@ -137,7 +137,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 18,
+    "pk": null,
     "fields": {
       "name": "The Mastermind",
       "image_path": "../static/killers/the_mastermind.webp"
@@ -145,7 +145,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 19,
+    "pk": null,
     "fields": {
       "name": "The Nemesis",
       "image_path": "../static/killers/the_nemesis.webp"
@@ -153,7 +153,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 20,
+    "pk": null,
     "fields": {
       "name": "The Nightmare",
       "image_path": "../static/killers/the_nightmare.webp"
@@ -161,7 +161,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 21,
+    "pk": null,
     "fields": {
       "name": "The Nurse",
       "image_path": "../static/killers/the_nurse.webp"
@@ -169,7 +169,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 22,
+    "pk": null,
     "fields": {
       "name": "The Oni",
       "image_path": "../static/killers/the_oni.webp"
@@ -177,7 +177,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 23,
+    "pk": null,
     "fields": {
       "name": "The Onyro",
       "image_path": "../static/killers/the_onyro.webp"
@@ -185,7 +185,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 24,
+    "pk": null,
     "fields": {
       "name": "The Pig",
       "image_path": "../static/killers/the_pig.webp"
@@ -193,7 +193,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 25,
+    "pk": null,
     "fields": {
       "name": "The Plague",
       "image_path": "../static/killers/the_plague.webp"
@@ -201,7 +201,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 26,
+    "pk": null,
     "fields": {
       "name": "The Shape",
       "image_path": "../static/killers/the_shape.webp"
@@ -209,7 +209,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 27,
+    "pk": null,
     "fields": {
       "name": "The Singularity",
       "image_path": "../static/killers/the_singularity.webp"
@@ -217,7 +217,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 28,
+    "pk": null,
     "fields": {
       "name": "The Skull Merchant",
       "image_path": "../static/killers/the_skull_merchant.webp"
@@ -225,7 +225,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 29,
+    "pk": null,
     "fields": {
       "name": "The Spirit",
       "image_path": "../static/killers/the_spirit.webp"
@@ -233,7 +233,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 30,
+    "pk": null,
     "fields": {
       "name": "The Trapper",
       "image_path": "../static/killers/the_trapper.webp"
@@ -241,7 +241,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 31,
+    "pk": null,
     "fields": {
       "name": "The Trickster",
       "image_path": "../static/killers/the_trickster.webp"
@@ -249,7 +249,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 32,
+    "pk": null,
     "fields": {
       "name": "The Twins",
       "image_path": "../static/killers/the_twins.webp"
@@ -257,7 +257,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 33,
+    "pk": null,
     "fields": {
       "name": "The Wraith",
       "image_path": "../static/killers/the_wraith.webp"
@@ -265,7 +265,7 @@
   },
   {
     "model": "killer.Killer",
-    "pk": 34,
+    "pk": null,
     "fields": {
       "name": "The Xenomorph",
       "image_path": "../static/killers/the_xenomorph.webp"

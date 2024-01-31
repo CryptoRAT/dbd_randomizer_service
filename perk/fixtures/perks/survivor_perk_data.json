@@ -1,7 +1,7 @@
 [
   {
     "model": "perk.Perk",
-    "pk": 1,
+    "pk": null,
     "fields": {
       "name": "Ace in the Hole",
       "type": "Survivor",
@@ -11,7 +11,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 2,
+    "pk": null,
     "fields": {
       "name": "Open-Handed",
       "type": "Survivor",
@@ -21,7 +21,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 3,
+    "pk": null,
     "fields": {
       "name": "Up the Ante",
       "type": "Survivor",
@@ -31,7 +31,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 4,
+    "pk": null,
     "fields": {
       "name": "Bond",
       "type": "Survivor",
@@ -41,7 +41,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 5,
+    "pk": null,
     "fields": {
       "name": "Prove Thyself",
       "type": "Survivor",
@@ -51,7 +51,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 6,
+    "pk": null,
     "fields": {
       "name": "Leader",
       "type": "Survivor",
@@ -61,7 +61,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 7,
+    "pk": null,
     "fields": {
       "name": "Adrenaline",
       "type": "Survivor",
@@ -71,7 +71,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 8,
+    "pk": null,
     "fields": {
       "name": "Quick & Quiet",
       "type": "Survivor",
@@ -81,7 +81,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 9,
+    "pk": null,
     "fields": {
       "name": "Sprint Burst",
       "type": "Survivor",
@@ -91,7 +91,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 10,
+    "pk": null,
     "fields": {
       "name": "Botany Knowledge",
       "type": "Survivor",
@@ -101,7 +101,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 11,
+    "pk": null,
     "fields": {
       "name": "Empathy",
       "type": "Survivor",
@@ -111,7 +111,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 12,
+    "pk": null,
     "fields": {
       "name": "Self-Care",
       "type": "Survivor",
@@ -121,7 +121,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 13,
+    "pk": null,
     "fields": {
       "name": "Calm Spirit",
       "type": "Survivor",
@@ -131,7 +131,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 14,
+    "pk": null,
     "fields": {
       "name": "Iron Will",
       "type": "Survivor",
@@ -141,7 +141,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 15,
+    "pk": null,
     "fields": {
       "name": "Saboteur",
       "type": "Survivor",
@@ -151,7 +151,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 16,
+    "pk": null,
     "fields": {
       "name": "Balanced Landing",
       "type": "Survivor",
@@ -161,7 +161,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 17,
+    "pk": null,
     "fields": {
       "name": "Streetwise",
       "type": "Survivor",
@@ -171,7 +171,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 18,
+    "pk": null,
     "fields": {
       "name": "Urban Evasion",
       "type": "Survivor",
@@ -181,7 +181,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 19,
+    "pk": null,
     "fields": {
       "name": "Decisive Strike",
       "type": "Survivor",
@@ -191,7 +191,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 20,
+    "pk": null,
     "fields": {
       "name": "Object of Obsession",
       "type": "Survivor",
@@ -201,7 +201,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 21,
+    "pk": null,
     "fields": {
       "name": "Sole Survivor",
       "type": "Survivor",
@@ -211,7 +211,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 22,
+    "pk": null,
     "fields": {
       "name": "Borrowed Time",
       "type": "Survivor",
@@ -221,7 +221,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 23,
+    "pk": null,
     "fields": {
       "name": "Left Behind",
       "type": "Survivor",
@@ -231,7 +231,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 24,
+    "pk": null,
     "fields": {
       "name": "Unbreakable",
       "type": "Survivor",
@@ -241,7 +241,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 25,
+    "pk": null,
     "fields": {
       "name": "Alert",
       "type": "Survivor",
@@ -251,7 +251,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 26,
+    "pk": null,
     "fields": {
       "name": "Lithe",
       "type": "Survivor",
@@ -261,7 +261,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 27,
+    "pk": null,
     "fields": {
       "name": "Technician",
       "type": "Survivor",
@@ -271,7 +271,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 28,
+    "pk": null,
     "fields": {
       "name": "Dead Hard",
       "type": "Survivor",
@@ -281,7 +281,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 29,
+    "pk": null,
     "fields": {
       "name": "No Mither",
       "type": "Survivor",
@@ -291,7 +291,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 30,
+    "pk": null,
     "fields": {
       "name": "We're Gonna Live Forever",
       "type": "Survivor",
@@ -301,7 +301,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 31,
+    "pk": null,
     "fields": {
       "name": "Vigil",
       "type": "Survivor",
@@ -311,7 +311,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 32,
+    "pk": null,
     "fields": {
       "name": "Pharmacy",
       "type": "Survivor",
@@ -321,7 +321,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 33,
+    "pk": null,
     "fields": {
       "name": "Wake Up!",
       "type": "Survivor",
@@ -331,7 +331,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 34,
+    "pk": null,
     "fields": {
       "name": "Detective's Hunch",
       "type": "Survivor",
@@ -341,7 +341,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 35,
+    "pk": null,
     "fields": {
       "name": "Stake Out",
       "type": "Survivor",
@@ -351,7 +351,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 36,
+    "pk": null,
     "fields": {
       "name": "Tenacity",
       "type": "Survivor",
@@ -361,7 +361,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 37,
+    "pk": null,
     "fields": {
       "name": "Boil Over",
       "type": "Survivor",
@@ -371,7 +371,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 38,
+    "pk": null,
     "fields": {
       "name": "Windows of Opportunity",
       "type": "Survivor",
@@ -381,7 +381,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 39,
+    "pk": null,
     "fields": {
       "name": "Dance With Me",
       "type": "Survivor",
@@ -391,7 +391,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 40,
+    "pk": null,
     "fields": {
       "name": "Autodidact",
       "type": "Survivor",
@@ -401,7 +401,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 41,
+    "pk": null,
     "fields": {
       "name": "Deliverance",
       "type": "Survivor",
@@ -411,7 +411,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 42,
+    "pk": null,
     "fields": {
       "name": "Diversion",
       "type": "Survivor",
@@ -421,7 +421,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 43,
+    "pk": null,
     "fields": {
       "name": "Aftercare",
       "type": "Survivor",
@@ -431,7 +431,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 44,
+    "pk": null,
     "fields": {
       "name": "Breakdown",
       "type": "Survivor",
@@ -441,7 +441,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 45,
+    "pk": null,
     "fields": {
       "name": "Distortion",
       "type": "Survivor",
@@ -451,7 +451,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 46,
+    "pk": null,
     "fields": {
       "name": "Head On",
       "type": "Survivor",
@@ -461,7 +461,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 47,
+    "pk": null,
     "fields": {
       "name": "Poised",
       "type": "Survivor",
@@ -471,7 +471,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 48,
+    "pk": null,
     "fields": {
       "name": "Solidarity",
       "type": "Survivor",
@@ -481,7 +481,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 49,
+    "pk": null,
     "fields": {
       "name": "Buckle Up",
       "type": "Survivor",
@@ -491,7 +491,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 50,
+    "pk": null,
     "fields": {
       "name": "Flip-Flop",
       "type": "Survivor",
@@ -501,7 +501,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 51,
+    "pk": null,
     "fields": {
       "name": "Mettle of Man",
       "type": "Survivor",
@@ -511,7 +511,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 52,
+    "pk": null,
     "fields": {
       "name": "Better Together",
       "type": "Survivor",
@@ -521,7 +521,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 53,
+    "pk": null,
     "fields": {
       "name": "Fixated",
       "type": "Survivor",
@@ -531,7 +531,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 54,
+    "pk": null,
     "fields": {
       "name": "Inner Strength",
       "type": "Survivor",
@@ -541,7 +541,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 55,
+    "pk": null,
     "fields": {
       "name": "Babysitter",
       "type": "Survivor",
@@ -551,7 +551,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 56,
+    "pk": null,
     "fields": {
       "name": "Camaraderie",
       "type": "Survivor",
@@ -561,7 +561,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 57,
+    "pk": null,
     "fields": {
       "name": "Second Wind",
       "type": "Survivor",
@@ -571,7 +571,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 58,
+    "pk": null,
     "fields": {
       "name": "Any Means Necessary",
       "type": "Survivor",
@@ -581,7 +581,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 59,
+    "pk": null,
     "fields": {
       "name": "Breakout",
       "type": "Survivor",
@@ -591,7 +591,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 60,
+    "pk": null,
     "fields": {
       "name": "Lucky Break",
       "type": "Survivor",
@@ -601,7 +601,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 61,
+    "pk": null,
     "fields": {
       "name": "For the People",
       "type": "Survivor",
@@ -611,7 +611,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 62,
+    "pk": null,
     "fields": {
       "name": "Off the Record",
       "type": "Survivor",
@@ -621,7 +621,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 63,
+    "pk": null,
     "fields": {
       "name": "Red Herring",
       "type": "Survivor",
@@ -631,7 +631,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 64,
+    "pk": null,
     "fields": {
       "name": "Blood Pact",
       "type": "Survivor",
@@ -641,7 +641,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 65,
+    "pk": null,
     "fields": {
       "name": "Repressed Alliance",
       "type": "Survivor",
@@ -651,7 +651,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 66,
+    "pk": null,
     "fields": {
       "name": "Soul Guard",
       "type": "Survivor",
@@ -661,7 +661,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 67,
+    "pk": null,
     "fields": {
       "name": "Built to Last",
       "type": "Survivor",
@@ -671,7 +671,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 68,
+    "pk": null,
     "fields": {
       "name": "Desperate Measures",
       "type": "Survivor",
@@ -681,7 +681,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 69,
+    "pk": null,
     "fields": {
       "name": "Visionary",
       "type": "Survivor",
@@ -691,7 +691,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 70,
+    "pk": null,
     "fields": {
       "name": "Power Struggle",
       "type": "Survivor",
@@ -701,7 +701,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 71,
+    "pk": null,
     "fields": {
       "name": "Appraisal",
       "type": "Survivor",
@@ -711,7 +711,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 72,
+    "pk": null,
     "fields": {
       "name": "Deception",
       "type": "Survivor",
@@ -721,7 +721,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 73,
+    "pk": null,
     "fields": {
       "name": "Fast Track",
       "type": "Survivor",
@@ -731,7 +731,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 74,
+    "pk": null,
     "fields": {
       "name": "Self-Preservation",
       "type": "Survivor",
@@ -741,7 +741,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 75,
+    "pk": null,
     "fields": {
       "name": "Smash Hit",
       "type": "Survivor",
@@ -751,7 +751,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 76,
+    "pk": null,
     "fields": {
       "name": "Blast Mine",
       "type": "Survivor",
@@ -761,7 +761,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 77,
+    "pk": null,
     "fields": {
       "name": "Counterforce",
       "type": "Survivor",
@@ -771,7 +771,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 78,
+    "pk": null,
     "fields": {
       "name": "Resurgence",
       "type": "Survivor",
@@ -781,7 +781,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 79,
+    "pk": null,
     "fields": {
       "name": "Bite the Bullet",
       "type": "Survivor",
@@ -791,7 +791,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 80,
+    "pk": null,
     "fields": {
       "name": "Flashbang",
       "type": "Survivor",
@@ -801,7 +801,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 81,
+    "pk": null,
     "fields": {
       "name": "Rookie Spirit",
       "type": "Survivor",
@@ -811,7 +811,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 82,
+    "pk": null,
     "fields": {
       "name": "Boon: Circle of Healing",
       "type": "Survivor",
@@ -821,7 +821,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 83,
+    "pk": null,
     "fields": {
       "name": "Boon: Shadow Step",
       "type": "Survivor",
@@ -831,7 +831,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 84,
+    "pk": null,
     "fields": {
       "name": "Clairvoyance",
       "type": "Survivor",
@@ -841,7 +841,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 85,
+    "pk": null,
     "fields": {
       "name": "Boon: Exponential",
       "type": "Survivor",
@@ -851,7 +851,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 86,
+    "pk": null,
     "fields": {
       "name": "Corrective Action",
       "type": "Survivor",
@@ -861,7 +861,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 87,
+    "pk": null,
     "fields": {
       "name": "Overcome",
       "type": "Survivor",
@@ -871,7 +871,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 88,
+    "pk": null,
     "fields": {
       "name": "Boon: Dark Theory",
       "type": "Survivor",
@@ -881,7 +881,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 89,
+    "pk": null,
     "fields": {
       "name": "Empathic Connection",
       "type": "Survivor",
@@ -891,7 +891,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 90,
+    "pk": null,
     "fields": {
       "name": "Parental Guidance",
       "type": "Survivor",
@@ -901,7 +901,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 91,
+    "pk": null,
     "fields": {
       "name": "Inner Focus",
       "type": "Survivor",
@@ -911,7 +911,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 92,
+    "pk": null,
     "fields": {
       "name": "Overzealous",
       "type": "Survivor",
@@ -921,7 +921,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 93,
+    "pk": null,
     "fields": {
       "name": "Residual Manifest",
       "type": "Survivor",
@@ -931,7 +931,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 94,
+    "pk": null,
     "fields": {
       "name": "Low Profile",
       "type": "Survivor",
@@ -941,7 +941,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 95,
+    "pk": null,
     "fields": {
       "name": "Reactive Healing",
       "type": "Survivor",
@@ -951,7 +951,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 96,
+    "pk": null,
     "fields": {
       "name": "Wiretap",
       "type": "Survivor",
@@ -961,7 +961,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 97,
+    "pk": null,
     "fields": {
       "name": "Better Than New",
       "type": "Survivor",
@@ -971,7 +971,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 98,
+    "pk": null,
     "fields": {
       "name": "Hyperfocus",
       "type": "Survivor",
@@ -981,7 +981,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 99,
+    "pk": null,
     "fields": {
       "name": "Reassurance",
       "type": "Survivor",
@@ -991,7 +991,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 100,
+     "pk": null,
     "fields": {
       "name": "Fogwise",
       "type": "Survivor",
@@ -1001,7 +1001,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 101,
+     "pk": null,
     "fields": {
       "name": "Potential Energy",
       "type": "Survivor",
@@ -1011,7 +1011,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 102,
+     "pk": null,
     "fields": {
       "name": "Quick Gambit",
       "type": "Survivor",
@@ -1021,7 +1021,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 103,
+     "pk": null,
     "fields": {
       "name": "Cut Loose",
       "type": "Survivor",
@@ -1031,7 +1031,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 104,
+     "pk": null,
     "fields": {
       "name": "Friendly Competition",
       "type": "Survivor",
@@ -1041,7 +1041,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 105,
+     "pk": null,
     "fields": {
       "name": "Teamwork: Power of Two",
       "type": "Survivor",
@@ -1051,7 +1051,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 106,
+     "pk": null,
     "fields": {
       "name": "Background Player",
       "type": "Survivor",
@@ -1061,7 +1061,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 107,
+     "pk": null,
     "fields": {
       "name": "Blood Rush",
       "type": "Survivor",
@@ -1071,7 +1071,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 108,
+     "pk": null,
     "fields": {
       "name": "Teamwork: Collective Stealth",
       "type": "Survivor",
@@ -1081,7 +1081,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 109,
+     "pk": null,
     "fields": {
       "name": "Troubleshooter",
       "type": "Survivor",
@@ -1091,7 +1091,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 110,
+     "pk": null,
     "fields": {
       "name": "Made for This",
       "type": "Survivor",
@@ -1101,7 +1101,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 111,
+     "pk": null,
     "fields": {
       "name": "Scavenger",
       "type": "Survivor",
@@ -1111,7 +1111,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 112,
+     "pk": null,
     "fields": {
       "name": "Plot Twist",
       "type": "Survivor",
@@ -1121,7 +1121,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 113,
+     "pk": null,
     "fields": {
       "name": "Dramaturgy",
       "type": "Survivor",
@@ -1131,7 +1131,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 114,
+     "pk": null,
     "fields": {
       "name": "Scene Partner",
       "type": "Survivor",
@@ -1141,7 +1141,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 115,
+     "pk": null,
     "fields": {
       "name": "Chemical Trap",
       "type": "Survivor",
@@ -1151,7 +1151,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 116,
+     "pk": null,
     "fields": {
       "name": "Light-footed",
       "type": "Survivor",
@@ -1161,7 +1161,7 @@
   },
   {
     "model": "perk.Perk",
-    "pk": 117,
+     "pk": null,
     "fields": {
       "name": "Lucky Star",
       "type": "Survivor",

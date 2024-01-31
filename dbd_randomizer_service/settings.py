@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'user.apps.UsersConfig',
     'survivor.apps.SurvivorConfig',
+    'killer.apps.KillerConfig',
     'perk.apps.PerksConfig',
     'rest_framework',
     'rest_framework.authtoken',

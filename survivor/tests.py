@@ -23,12 +23,6 @@ class TestSurvivorView(TestCase):
         assert response.status_code == 201  # Created
         assert Survivor.objects.filter(name="New Survivor").exists()
 
-    def test_create_survivor(self):
-        data = {'name': 'Test Survivor', 'image_path': 'test.jpg'}
-        response = self.client.post('/api/survivor/', data, format='json', content_type='application/json')
-        assert response.status_code == 201
-        assert Survivor.objects.filter(name='Test Survivor').exists()
-
     def test_update_survivor(self):
         survivor = Survivor.objects.create(name='Old Survivor', image_path='old.jpg')
         data = {'name': 'Updated Survivor', 'image_path': 'new.jpg'}

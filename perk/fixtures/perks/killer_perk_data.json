@@ -1,1172 +1,1152 @@
 [
   {
     "model": "perk.Perk",
-    "pk": 1,
+    "pk": null,
     "fields": {
-      "name": "Ace in the Hole",
-      "type": "Survivor",
-      "owner": "Ace Visconti",
-      "image_path": "static/perks/ace_in_the_hole.webp"
+      "name": "A Nurse's Calling",
+      "type": "Killer",
+      "owner": "The Nurse",
+      "image_path": "static/perks/a_nurses_calling.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 2,
+    "pk": null,
     "fields": {
-      "name": "Open-Handed",
-      "type": "Survivor",
-      "owner": "Ace Visconti",
-      "image_path": "static/perks/open_handed.webp"
+      "name": "Agitation",
+      "type": "Killer",
+      "owner": "The Trapper",
+      "image_path": "static/perks/agitation.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 3,
+    "pk": null,
     "fields": {
-      "name": "Up the Ante",
-      "type": "Survivor",
-      "owner": "Ace Visconti",
-      "image_path": "static/perks/up_the_ante.webp"
+      "name": "Alien Instinct",
+      "type": "Killer",
+      "owner": "The Xenomorph",
+      "image_path": "static/perks/alien_instinct.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 4,
+    "pk": null,
     "fields": {
-      "name": "Bond",
-      "type": "Survivor",
-      "owner": "Dwight Fairfield",
-      "image_path": "static/perks/bond.webp"
+      "name": "Awakened Awareness",
+      "type": "Killer",
+      "owner": "The Mastermind",
+      "image_path": "static/perks/awakened_awareness.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 5,
+    "pk": null,
     "fields": {
-      "name": "Prove Thyself",
-      "type": "Survivor",
-      "owner": "Dwight Fairfield",
-      "image_path": "static/perks/prove_thyself.webp"
+      "name": "Bamboozle",
+      "type": "Killer",
+      "owner": "The Clown",
+      "image_path": "static/perks/bamboozle.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 6,
+    "pk": null,
     "fields": {
-      "name": "Leader",
-      "type": "Survivor",
-      "owner": "Dwight Fairfield",
-      "image_path": "static/perks/leader.webp"
+      "name": "Batteries Included",
+      "type": "Killer",
+      "owner": "The Good Guy",
+      "image_path": "static/perks/batteries_included.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 7,
+    "pk": null,
     "fields": {
-      "name": "Adrenaline",
-      "type": "Survivor",
-      "owner": "Meg Thomas",
-      "image_path": "static/perks/adrenaline.webp"
+      "name": "BBQ & Chili",
+      "type": "Killer",
+      "owner": "The Cannibal",
+      "image_path": "static/perks/bbq_and_chili.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 8,
+    "pk": null,
     "fields": {
-      "name": "Quick & Quiet",
-      "type": "Survivor",
-      "owner": "Meg Thomas",
-      "image_path": "static/perks/quick_and_quiet.webp"
+      "name": "Beast of Prey",
+      "type": "Killer",
+      "owner": "The Huntress",
+      "image_path": "static/perks/beast_of_prey.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 9,
+    "pk": null,
     "fields": {
-      "name": "Sprint Burst",
-      "type": "Survivor",
-      "owner": "Meg Thomas",
-      "image_path": "static/perks/sprint_burst.webp"
+      "name": "Bitter Murmur",
+      "type": "Killer",
+      "owner": "Common",
+      "image_path": "static/perks/bitter_murmur.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 10,
+    "pk": null,
     "fields": {
-      "name": "Botany Knowledge",
-      "type": "Survivor",
-      "owner": "Claudette Morel",
-      "image_path": "static/perks/botany_knowledge.webp"
+      "name": "Blood Echo",
+      "type": "Killer",
+      "owner": "The Oni",
+      "image_path": "static/perks/blood_echo.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 11,
+    "pk": null,
     "fields": {
-      "name": "Empathy",
-      "type": "Survivor",
-      "owner": "Claudette Morel",
-      "image_path": "static/perks/empathy.webp"
+      "name": "Blood Favor",
+      "type": "Killer",
+      "owner": "The Blight",
+      "image_path": "static/perks/blood_favor.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 12,
+    "pk": null,
     "fields": {
-      "name": "Self-Care",
-      "type": "Survivor",
-      "owner": "Claudette Morel",
-      "image_path": "static/perks/self_care.webp"
+      "name": "Blood Warden",
+      "type": "Killer",
+      "owner": "The Nightmare",
+      "image_path": "static/perks/blood_warden.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 13,
+    "pk": null,
     "fields": {
-      "name": "Calm Spirit",
-      "type": "Survivor",
-      "owner": "Jake Park",
-      "image_path": "static/perks/calm_spirit.webp"
+      "name": "Bloodhound",
+      "type": "Killer",
+      "owner": "The Wraith",
+      "image_path": "static/perks/bloodhound.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 14,
+    "pk": null,
     "fields": {
-      "name": "Iron Will",
-      "type": "Survivor",
-      "owner": "Jake Park",
-      "image_path": "static/perks/iron_will.webp"
+      "name": "Brutal Strength",
+      "type": "Killer",
+      "owner": "The Trapper",
+      "image_path": "static/perks/brutal_strength.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 15,
+    "pk": null,
     "fields": {
-      "name": "Saboteur",
-      "type": "Survivor",
-      "owner": "Jake Park",
-      "image_path": "static/perks/saboteur.webp"
+      "name": "Call of Brine",
+      "type": "Killer",
+      "owner": "The Onyro",
+      "image_path": "static/perks/call_of_brine.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 16,
+    "pk": null,
     "fields": {
-      "name": "Balanced Landing",
-      "type": "Survivor",
-      "owner": "Nea Karlsson",
-      "image_path": "static/perks/balanced_landing.webp"
+      "name": "Corrupt Intervention",
+      "type": "Killer",
+      "owner": "The Plague",
+      "image_path": "static/perks/corrupt_intervention.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 17,
+    "pk": null,
     "fields": {
-      "name": "Streetwise",
-      "type": "Survivor",
-      "owner": "Nea Karlsson",
-      "image_path": "static/perks/streetwise.webp"
+      "name": "Coulrophobia",
+      "type": "Killer",
+      "owner": "The Nurse",
+      "image_path": "static/perks/coulrophobia.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 18,
+    "pk": null,
     "fields": {
-      "name": "Urban Evasion",
-      "type": "Survivor",
-      "owner": "Nea Karlsson",
-      "image_path": "static/perks/urban_evasion.webp"
+      "name": "Coup de Grace",
+      "type": "Killer",
+      "owner": "The Twins",
+      "image_path": "static/perks/coup_de_grace.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 19,
+    "pk": null,
     "fields": {
-      "name": "Decisive Strike",
-      "type": "Survivor",
-      "owner": "Laurie Strode",
-      "image_path": "static/perks/decisive_strike.webp"
+      "name": "Crowd Control",
+      "type": "Killer",
+      "owner": "The Trickster",
+      "image_path": "static/perks/crowd_control.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 20,
+    "pk": null,
     "fields": {
-      "name": "Object of Obsession",
-      "type": "Survivor",
-      "owner": "Laurie Strode",
-      "image_path": "static/perks/object_of_obsession.webp"
+      "name": "Cruel Limits",
+      "type": "Killer",
+      "owner": "The Demogorgon",
+      "image_path": "static/perks/cruel_limits.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 21,
+    "pk": null,
     "fields": {
-      "name": "Sole Survivor",
-      "type": "Survivor",
-      "owner": "Laurie Strode",
-      "image_path": "static/perks/sole_survivor.webp"
+      "name": "Dark Devotion",
+      "type": "Killer",
+      "owner": "The Plague",
+      "image_path": "static/perks/dark_devotion.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 22,
+    "pk": null,
     "fields": {
-      "name": "Borrowed Time",
-      "type": "Survivor",
-      "owner": "William \"Bill\" Overbeck",
-      "image_path": "static/perks/borrowed_time.webp"
+      "name": "Darkness Revealed",
+      "type": "Killer",
+      "owner": "The Dredge",
+      "image_path": "static/perks/darkness_revealed.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 23,
+    "pk": null,
     "fields": {
-      "name": "Left Behind",
-      "type": "Survivor",
-      "owner": "William \"Bill\" Overbeck",
-      "image_path": "static/perks/left_behind.webp"
+      "name": "Dead Man's Switch",
+      "type": "Killer",
+      "owner": "The Deathslinger",
+      "image_path": "static/perks/dead_mans_switch.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 24,
+    "pk": null,
     "fields": {
-      "name": "Unbreakable",
-      "type": "Survivor",
-      "owner": "William \"Bill\" Overbeck",
-      "image_path": "static/perks/unbreakable.webp"
+      "name": "Deadlock",
+      "type": "Killer",
+      "owner": "The Cenobite",
+      "image_path": "static/perks/deadlock.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 25,
+    "pk": null,
     "fields": {
-      "name": "Alert",
-      "type": "Survivor",
-      "owner": "Feng Min",
-      "image_path": "static/perks/alert.webp"
+      "name": "Deathbound",
+      "type": "Killer",
+      "owner": "The Executioner",
+      "image_path": "static/perks/deathbound.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 26,
+    "pk": null,
     "fields": {
-      "name": "Lithe",
-      "type": "Survivor",
-      "owner": "Feng Min",
-      "image_path": "static/perks/lithe.webp"
+      "name": "Deerstalker",
+      "type": "Killer",
+      "owner": "The Wraith",
+      "image_path": "static/perks/deerstalker.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 27,
+    "pk": null,
     "fields": {
-      "name": "Technician",
-      "type": "Survivor",
-      "owner": "Feng Min",
-      "image_path": "static/perks/technician.webp"
+      "name": "Hex: Devour Hope",
+      "type": "Killer",
+      "owner": "The Hag",
+      "image_path": "static/perks/devour_hope.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 28,
+    "pk": null,
     "fields": {
-      "name": "Dead Hard",
-      "type": "Survivor",
-      "owner": "David King",
-      "image_path": "static/perks/dead_hard.webp"
+      "name": "Discordance",
+      "type": "Killer",
+      "owner": "The Legion",
+      "image_path": "static/perks/discordance.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 29,
+    "pk": null,
     "fields": {
-      "name": "No Mither",
-      "type": "Survivor",
-      "owner": "David King",
-      "image_path": "static/perks/no_mither.webp"
+      "name": "Dissolution",
+      "type": "Killer",
+      "owner": "The Dredge",
+      "image_path": "static/perks/dissolution.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 30,
+    "pk": null,
     "fields": {
-      "name": "We're Gonna Live Forever",
-      "type": "Survivor",
-      "owner": "David King",
-      "image_path": "static/perks/were_gonna_live_forever.webp"
+      "name": "Distressing",
+      "type": "Killer",
+      "owner": "Common",
+      "image_path": "static/perks/distressing.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 31,
+    "pk": null,
     "fields": {
-      "name": "Vigil",
-      "type": "Survivor",
-      "owner": "Quentin Smith",
-      "image_path": "static/perks/vigil.webp"
+      "name": "Dragon's Grip",
+      "type": "Killer",
+      "owner": "The Blight",
+      "image_path": "static/perks/dragons_grip.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 32,
+    "pk": null,
     "fields": {
-      "name": "Pharmacy",
-      "type": "Survivor",
-      "owner": "Quentin Smith",
-      "image_path": "static/perks/pharmacy.webp"
+      "name": "Dying Light",
+      "type": "Killer",
+      "owner": "The Shape",
+      "image_path": "static/perks/dying_light.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 33,
+    "pk": null,
     "fields": {
-      "name": "Wake Up!",
-      "type": "Survivor",
-      "owner": "Quentin Smith",
-      "image_path": "static/perks/wake_up.webp"
+      "name": "Enduring",
+      "type": "Killer",
+      "owner": "The Hillbilly",
+      "image_path": "static/perks/enduring.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 34,
+    "pk": null,
     "fields": {
-      "name": "Detective's Hunch",
-      "type": "Survivor",
-      "owner": "Detective David Tapp",
-      "image_path": "static/perks/detectives_hunch.webp"
+      "name": "Eruption",
+      "type": "Killer",
+      "owner": "The Nemesis",
+      "image_path": "static/perks/eruption.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 35,
+    "pk": null,
     "fields": {
-      "name": "Stake Out",
-      "type": "Survivor",
-      "owner": "Detective David Tapp",
-      "image_path": "static/perks/stake_out.webp"
+      "name": "Hex: Face the Darkness",
+      "type": "Killer",
+      "owner": "The Knight",
+      "image_path": "static/perks/face_the_darkness.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 36,
+    "pk": null,
     "fields": {
-      "name": "Tenacity",
-      "type": "Survivor",
-      "owner": "Detective David Tapp",
-      "image_path": "static/perks/tenacity.webp"
+      "name": "Fire Up",
+      "type": "Killer",
+      "owner": "The Nightmare",
+      "image_path": "static/perks/fire_up.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 37,
+    "pk": null,
     "fields": {
-      "name": "Boil Over",
-      "type": "Survivor",
-      "owner": "Kate Denson",
-      "image_path": "static/perks/boil_over.webp"
+      "name": "Scourge Hook: Floods of Rage",
+      "type": "Killer",
+      "owner": "The Onyro",
+      "image_path": "static/perks/floods_of_rage.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 38,
+    "pk": null,
     "fields": {
-      "name": "Windows of Opportunity",
-      "type": "Survivor",
-      "owner": "Kate Denson",
-      "image_path": "static/perks/windows_of_opportunity.webp"
+      "name": "Forced Hesitation",
+      "type": "Killer",
+      "owner": "The Singularity",
+      "image_path": "static/perks/forced_hesitation.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 39,
+    "pk": null,
     "fields": {
-      "name": "Dance With Me",
-      "type": "Survivor",
-      "owner": "Kate Denson",
-      "image_path": "static/perks/dance_with_me.webp"
+      "name": "Forced Penance",
+      "type": "Killer",
+      "owner": "The Executioner",
+      "image_path": "static/perks/forced_penance.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 40,
+    "pk": null,
     "fields": {
-      "name": "Autodidact",
-      "type": "Survivor",
-      "owner": "Adam Francis",
-      "image_path": "static/perks/autodidact.webp"
+      "name": "Franklin's Demise",
+      "type": "Killer",
+      "owner": "The Cannibal",
+      "image_path": "static/perks/frankins_demise.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 41,
+    "pk": null,
     "fields": {
-      "name": "Deliverance",
-      "type": "Survivor",
-      "owner": "Adam Francis",
-      "image_path": "static/perks/deliverance.webp"
+      "name": "Friends 'till the End",
+      "type": "Killer",
+      "owner": "The Good Guy",
+      "image_path": "static/perks/friends_till_the_end.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 42,
+    "pk": null,
     "fields": {
-      "name": "Diversion",
-      "type": "Survivor",
-      "owner": "Adam Francis",
-      "image_path": "static/perks/diversion.webp"
+      "name": "Furtive Chase",
+      "type": "Killer",
+      "owner": "The Ghost Face",
+      "image_path": "static/perks/furtive_chase.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 43,
+    "pk": null,
     "fields": {
-      "name": "Aftercare",
-      "type": "Survivor",
-      "owner": "Jeffrey \"Jeff\" Johansen",
-      "image_path": "static/perks/aftercare.webp"
+      "name": "Game Afoot",
+      "type": "Killer",
+      "owner": "The Skull Merchant",
+      "image_path": "static/perks/game_afoot.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 44,
+    "pk": null,
     "fields": {
-      "name": "Breakdown",
-      "type": "Survivor",
-      "owner": "Jeffrey \"Jeff\" Johansen",
-      "image_path": "static/perks/breakdown.webp"
+      "name": "Gearhead",
+      "type": "Killer",
+      "owner": "The Deathslinger",
+      "image_path": "static/perks/gearhead.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 45,
+    "pk": null,
     "fields": {
-      "name": "Distortion",
-      "type": "Survivor",
-      "owner": "Jeffrey \"Jeff\" Johansen",
-      "image_path": "static/perks/distortion.webp"
+      "name": "Genetic Limits",
+      "type": "Killer",
+      "owner": "The Singularity",
+      "image_path": "static/perks/genetic_limits.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 46,
+    "pk": null,
     "fields": {
-      "name": "Head On",
-      "type": "Survivor",
-      "owner": "Jane Romero",
-      "image_path": "static/perks/head_on.webp"
+      "name": "Scourge Hook: Gift of Pain",
+      "type": "Killer",
+      "owner": "The Cenobite",
+      "image_path": "static/perks/gift_of_pain.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 47,
+    "pk": null,
     "fields": {
-      "name": "Poised",
-      "type": "Survivor",
-      "owner": "Jane Romero",
-      "image_path": "static/perks/poised.webp"
+      "name": "Grim Embrace",
+      "type": "Killer",
+      "owner": "The Artist",
+      "image_path": "static/perks/grim_embrace.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 48,
+    "pk": null,
     "fields": {
-      "name": "Solidarity",
-      "type": "Survivor",
-      "owner": "Jane Romero",
-      "image_path": "static/perks/solidarity.webp"
+      "name": "Scourge Hook: Hangman's Trick",
+      "type": "Killer",
+      "owner": "The Pig",
+      "image_path": "static/perks/hangmans_trick.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 49,
+    "pk": null,
     "fields": {
-      "name": "Buckle Up",
-      "type": "Survivor",
-      "owner": "Ashley J. Williams",
-      "image_path": "static/perks/buckle_up.webp"
+      "name": "Hex: Haunted Ground",
+      "type": "Killer",
+      "owner": "The Spirit",
+      "image_path": "static/perks/haunted_ground.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 50,
+    "pk": null,
     "fields": {
-      "name": "Flip-Flop",
-      "type": "Survivor",
-      "owner": "Ashley J. Williams",
-      "image_path": "static/perks/flip_flop.webp"
+      "name": "Hoarder",
+      "type": "Killer",
+      "owner": "The Twins",
+      "image_path": "static/perks/hoarder.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 51,
+    "pk": null,
     "fields": {
-      "name": "Mettle of Man",
-      "type": "Survivor",
-      "owner": "Ashley J. Williams",
-      "image_path": "static/perks/mettle_of_man.webp"
+      "name": "Hubris",
+      "type": "Killer",
+      "owner": "The Dredge",
+      "image_path": "static/perks/hubris.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 52,
+    "pk": null,
     "fields": {
-      "name": "Better Together",
-      "type": "Survivor",
-      "owner": "Nancy Wheeler",
-      "image_path": "static/perks/better_together.webp"
+      "name": "Huntress Lullaby",
+      "type": "Killer",
+      "owner": "The Huntress",
+      "image_path": "static/perks/huntress_lullaby.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 53,
+    "pk": null,
     "fields": {
-      "name": "Fixated",
-      "type": "Survivor",
-      "owner": "Nancy Wheeler",
-      "image_path": "static/perks/fixated.webp"
+      "name": "Hysteria",
+      "type": "Killer",
+      "owner": "The Nemesis",
+      "image_path": "static/perks/hysteria.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 54,
+    "pk": null,
     "fields": {
-      "name": "Inner Strength",
-      "type": "Survivor",
-      "owner": "Nancy Wheeler",
-      "image_path": "static/perks/inner_strength.webp"
+      "name": "I'm All Ears",
+      "type": "Killer",
+      "owner": "The Ghost Face",
+      "image_path": "static/perks/im_all_ears.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 55,
+    "pk": null,
     "fields": {
-      "name": "Babysitter",
-      "type": "Survivor",
-      "owner": "Steve Harrington",
-      "image_path": "static/perks/babysitter.webp"
+      "name": "Infectious Fright",
+      "type": "Killer",
+      "owner": "The Plague",
+      "image_path": "static/perks/infections_fright.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 56,
+    "pk": null,
     "fields": {
-      "name": "Camaraderie",
-      "type": "Survivor",
-      "owner": "Steve Harrington",
-      "image_path": "static/perks/camaraderie.webp"
+      "name": "Insidious",
+      "type": "Killer",
+      "owner": "Common",
+      "image_path": "static/perks/insidious.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 57,
+    "pk": null,
     "fields": {
-      "name": "Second Wind",
-      "type": "Survivor",
-      "owner": "Steve Harrington",
-      "image_path": "static/perks/second_wind.webp"
+      "name": "Iron Grasp",
+      "type": "Killer",
+      "owner": "Common",
+      "image_path": "static/perks/iron_grasp.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 58,
+    "pk": null,
     "fields": {
-      "name": "Any Means Necessary",
-      "type": "Survivor",
-      "owner": "Yui Kimura",
-      "image_path": "static/perks/any_means_necessary.webp"
+      "name": "Iron Maiden",
+      "type": "Killer",
+      "owner": "The Huntress",
+      "image_path": "static/perks/iron_maiden.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 59,
+    "pk": null,
     "fields": {
-      "name": "Breakout",
-      "type": "Survivor",
-      "owner": "Yui Kimura",
-      "image_path": "static/perks/breakout.webp"
+      "name": "Knock Out",
+      "type": "Killer",
+      "owner": "The Cannibal",
+      "image_path": "static/perks/knockout.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 60,
+    "pk": null,
     "fields": {
-      "name": "Lucky Break",
-      "type": "Survivor",
-      "owner": "Yui Kimura",
-      "image_path": "static/perks/lucky_break.webp"
+      "name": "Lethal Pursuer",
+      "type": "Killer",
+      "owner": "The Nemesis",
+      "image_path": "static/perks/lethal_pursuer.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 61,
+    "pk": null,
     "fields": {
-      "name": "For the People",
-      "type": "Survivor",
-      "owner": "Zarina Kassir",
-      "image_path": "static/perks/for_the_people.webp"
+      "name": "Leverage",
+      "type": "Killer",
+      "owner": "The Skull Merchant",
+      "image_path": "static/perks/leverage.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 62,
+    "pk": null,
     "fields": {
-      "name": "Off the Record",
-      "type": "Survivor",
-      "owner": "Zarina Kassir",
-      "image_path": "static/perks/off_the_record.webp"
+      "name": "Lightborn",
+      "type": "Killer",
+      "owner": "The Hillbilly",
+      "image_path": "static/perks/lightborn.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 63,
+    "pk": null,
     "fields": {
-      "name": "Red Herring",
-      "type": "Survivor",
-      "owner": "Zarina Kassir",
-      "image_path": "static/perks/red_herring.webp"
+      "name": "Machine Learning",
+      "type": "Killer",
+      "owner": "The Singularity",
+      "image_path": "static/perks/machine_learning.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 64,
+    "pk": null,
     "fields": {
-      "name": "Blood Pact",
-      "type": "Survivor",
-      "owner": "Cheryl Mason",
-      "image_path": "static/perks/blood_pact.webp"
+      "name": "Mad Grit",
+      "type": "Killer",
+      "owner": "The Legion",
+      "image_path": "static/perks/mad_grit.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 65,
+    "pk": null,
     "fields": {
-      "name": "Repressed Alliance",
-      "type": "Survivor",
-      "owner": "Cheryl Mason",
-      "image_path": "static/perks/repressed_alliance.webp"
+      "name": "Make Your Choice",
+      "type": "Killer",
+      "owner": "The Pig",
+      "image_path": "static/perks/make_your_choice.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 66,
+    "pk": null,
     "fields": {
-      "name": "Soul Guard",
-      "type": "Survivor",
-      "owner": "Cheryl Mason",
-      "image_path": "static/perks/soul_guard.webp"
+      "name": "Merciless Storm",
+      "type": "Killer",
+      "owner": "The Onyro",
+      "image_path": "static/perks/merciless_storm.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 67,
+    "pk": null,
     "fields": {
-      "name": "Built to Last",
-      "type": "Survivor",
-      "owner": "Felix Richter",
-      "image_path": "static/perks/built_to_last.webp"
+      "name": "Mindbreaker",
+      "type": "Killer",
+      "owner": "The Demogorgon",
+      "image_path": "static/perks/mindbreaker.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 68,
+    "pk": null,
     "fields": {
-      "name": "Desperate Measures",
-      "type": "Survivor",
-      "owner": "Felix Richter",
-      "image_path": "static/perks/desparate_measures.webp"
+      "name": "Monitor & Abuse",
+      "type": "Killer",
+      "owner": "The Doctor",
+      "image_path": "static/perks/monitor_and_abuse.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 69,
+    "pk": null,
     "fields": {
-      "name": "Visionary",
-      "type": "Survivor",
-      "owner": "Felix Richter",
-      "image_path": "static/perks/visionary.webp"
+      "name": "Scourge Hook: Monstrous Shrine",
+      "type": "Killer",
+      "owner": "Common",
+      "image_path": "static/perks/monstrous_shrine.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 70,
+    "pk": null,
     "fields": {
-      "name": "Power Struggle",
-      "type": "Survivor",
-      "owner": "Élodie Rakoto",
-      "image_path": "static/perks/power_struggle.webp"
+      "name": "Nemesis",
+      "type": "Killer",
+      "owner": "The Oni",
+      "image_path": "static/perks/nemesis.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 71,
+    "pk": null,
     "fields": {
-      "name": "Appraisal",
-      "type": "Survivor",
-      "owner": "Élodie Rakoto",
-      "image_path": "static/perks/appraisal.webp"
+      "name": "Hex: No One Escapes Death",
+      "type": "Killer",
+      "owner": "Common",
+      "image_path": "static/perks/no_one_escapes_death.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 72,
+    "pk": null,
     "fields": {
-      "name": "Deception",
-      "type": "Survivor",
-      "owner": "Élodie Rakoto",
-      "image_path": "static/perks/deception.webp"
+      "name": "No Way Out",
+      "type": "Killer",
+      "owner": "The Trickster",
+      "image_path": "static/perks/no_way_out.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 73,
+    "pk": null,
     "fields": {
-      "name": "Fast Track",
-      "type": "Survivor",
-      "owner": "Yun-Jin Lee",
-      "image_path": "static/perks/fast_track.webp"
+      "name": "Nowhere to Hide",
+      "type": "Killer",
+      "owner": "The Knight",
+      "image_path": "static/perks/nowhere_to_hide.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 74,
+    "pk": null,
     "fields": {
-      "name": "Self-Preservation",
-      "type": "Survivor",
-      "owner": "Yun-Jin Lee",
-      "image_path": "static/perks/self_preservation.webp"
+      "name": "Oppression",
+      "type": "Killer",
+      "owner": "The Twins",
+      "image_path": "static/perks/oppression.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 75,
+    "pk": null,
     "fields": {
-      "name": "Smash Hit",
-      "type": "Survivor",
-      "owner": "Yun-Jin Lee",
-      "image_path": "static/perks/smash_hit.webp"
+      "name": "Overcharge",
+      "type": "Killer",
+      "owner": "The Doctor",
+      "image_path": "static/perks/overcharge.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 76,
+    "pk": null,
     "fields": {
-      "name": "Blast Mine",
-      "type": "Survivor",
-      "owner": "Jill Valentine",
-      "image_path": "static/perks/blast_mine.webp"
+      "name": "Overwhelming Presence",
+      "type": "Killer",
+      "owner": "The Doctor",
+      "image_path": "static/perks/overwhelming_presence.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 77,
+    "pk": null,
     "fields": {
-      "name": "Counterforce",
-      "type": "Survivor",
-      "owner": "Jill Valentine",
-      "image_path": "static/perks/counterforce.webp"
+      "name": "Scourge Hook: Pain Resonance",
+      "type": "Killer",
+      "owner": "The Artist",
+      "image_path": "static/perks/pain_resonance.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 78,
+    "pk": null,
     "fields": {
-      "name": "Resurgence",
-      "type": "Survivor",
-      "owner": "Jill Valentine",
-      "image_path": "static/perks/resurgence.webp"
+      "name": "Hex: Pentimento",
+      "type": "Killer",
+      "owner": "The Artist",
+      "image_path": "static/perks/pentimento.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 79,
+    "pk": null,
     "fields": {
-      "name": "Bite the Bullet",
-      "type": "Survivor",
-      "owner": "Leon Scott Kennedy",
-      "image_path": "static/perks/bite_the_bullet.webp"
+      "name": "Play With Your Food",
+      "type": "Killer",
+      "owner": "The Shape",
+      "image_path": "static/perks/play_with_your_food.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 80,
+    "pk": null,
     "fields": {
-      "name": "Flashbang",
-      "type": "Survivor",
-      "owner": "Leon Scott Kennedy",
-      "image_path": "static/perks/flashbang.webp"
+      "name": "Hex: Plaything",
+      "type": "Killer",
+      "owner": "The Cenobite",
+      "image_path": "static/perks/plaything.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 81,
+    "pk": null,
     "fields": {
-      "name": "Rookie Spirit",
-      "type": "Survivor",
-      "owner": "Leon Scott Kennedy",
-      "image_path": "static/perks/rookie_spirit.webp"
+      "name": "Pop Goes the Weasel",
+      "type": "Killer",
+      "owner": "The Clown",
+      "image_path": "static/perks/pop_goes_the_weasal.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 82,
+    "pk": null,
     "fields": {
-      "name": "Boon: Circle of Healing",
-      "type": "Survivor",
-      "owner": "Mikaela Reid",
-      "image_path": "static/perks/boon_cirle_of_healing.webp"
+      "name": "Predator",
+      "type": "Killer",
+      "owner": "The Wraith",
+      "image_path": "static/perks/predator.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 83,
+    "pk": null,
     "fields": {
-      "name": "Boon: Shadow Step",
-      "type": "Survivor",
-      "owner": "Mikaela Reid",
-      "image_path": "static/perks/boon_shadow_step.webp"
+      "name": "Rancor",
+      "type": "Killer",
+      "owner": "The Spirit",
+      "image_path": "static/perks/rancor.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 84,
+    "pk": null,
     "fields": {
-      "name": "Clairvoyance",
-      "type": "Survivor",
-      "owner": "Mikaela Reid",
-      "image_path": "static/perks/clairvoyance.webp"
+      "name": "Rabid Brutality",
+      "type": "Killer",
+      "owner": "The Xenomorph",
+      "image_path": "static/perks/rapid_brutality.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 85,
+    "pk": null,
     "fields": {
-      "name": "Boon: Exponential",
-      "type": "Survivor",
-      "owner": "Jonah Vasquez",
-      "image_path": "static/perks/boon_exponential.webp"
+      "name": "Remember Me",
+      "type": "Killer",
+      "owner": "The Nightmare",
+      "image_path": "static/perks/remember_me.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 86,
+    "pk": null,
     "fields": {
-      "name": "Corrective Action",
-      "type": "Survivor",
-      "owner": "Jonah Vasquez",
-      "image_path": "static/perks/corrective_action.webp"
+      "name": "Hex: Retribution",
+      "type": "Killer",
+      "owner": "The Deathslinger",
+      "image_path": "static/perks/retribution.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 87,
+    "pk": null,
     "fields": {
-      "name": "Overcome",
-      "type": "Survivor",
-      "owner": "Jonah Vasquez",
-      "image_path": "static/perks/overcome.webp"
+      "name": "Hex: Ruin",
+      "type": "Killer",
+      "owner": "The Hag",
+      "image_path": "static/perks/ruin.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 88,
+    "pk": null,
     "fields": {
-      "name": "Boon: Dark Theory",
-      "type": "Survivor",
-      "owner": "Yoichi Asakawa",
-      "image_path": "static/perks/boon_dark_theory.webp"
+      "name": "Save The Best For Last",
+      "type": "Killer",
+      "owner": "The Shape",
+      "image_path": "static/perks/save_the_best_for_last.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 89,
+    "pk": null,
     "fields": {
-      "name": "Empathic Connection",
-      "type": "Survivor",
-      "owner": "Yoichi Asakawa",
-      "image_path": "static/perks/empathic_connection.webp"
+      "name": "Septic Touch",
+      "type": "Killer",
+      "owner": "The Dredge",
+      "image_path": "static/perks/septic_touch.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 90,
+    "pk": null,
     "fields": {
-      "name": "Parental Guidance",
-      "type": "Survivor",
-      "owner": "Yoichi Asakawa",
-      "image_path": "static/perks/parental_guidance.webp"
+      "name": "Shadowborn",
+      "type": "Killer",
+      "owner": "The Wraith",
+      "image_path": "static/perks/shadowborn.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 91,
+    "pk": null,
     "fields": {
-      "name": "Inner Focus",
-      "type": "Survivor",
-      "owner": "Haddie Kaur",
-      "image_path": "static/perks/inner_focus.webp"
+      "name": "Shattered Hope",
+      "type": "Killer",
+      "owner": "Common",
+      "image_path": "static/perks/shattered_hope.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 92,
+    "pk": null,
     "fields": {
-      "name": "Overzealous",
-      "type": "Survivor",
-      "owner": "Haddie Kaur",
-      "image_path": "static/perks/overzealous.webp"
+      "name": "Sloppy Butcher",
+      "type": "Killer",
+      "owner": "Common",
+      "image_path": "static/perks/sloppy_butcher.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 93,
+    "pk": null,
     "fields": {
-      "name": "Residual Manifest",
-      "type": "Survivor",
-      "owner": "Haddie Kaur",
-      "image_path": "static/perks/residual_manifest.webp"
+      "name": "Spies From the Shadows",
+      "type": "Killer",
+      "owner": "Common",
+      "image_path": "static/perks/spies_from_the_shadow.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 94,
+    "pk": null,
     "fields": {
-      "name": "Low Profile",
-      "type": "Survivor",
-      "owner": "Ada Wong",
-      "image_path": "static/perks/low_profile.webp"
+      "name": "Spirit Fury",
+      "type": "Killer",
+      "owner": "The Spirit",
+      "image_path": "static/perks/spirit_fury.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 95,
+    "pk": null,
     "fields": {
-      "name": "Reactive Healing",
-      "type": "Survivor",
-      "owner": "Ada Wong",
-      "image_path": "static/perks/reactive_healing.webp"
+      "name": "Starstruck",
+      "type": "Killer",
+      "owner": "The Trickster",
+      "image_path": "static/perks/starstruck.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 96,
+    "pk": null,
     "fields": {
-      "name": "Wiretap",
-      "type": "Survivor",
-      "owner": "Ada Wong",
-      "image_path": "static/perks/wiretap.webp"
+      "name": "Stridor",
+      "type": "Killer",
+      "owner": "The Nurse",
+      "image_path": "static/perks/stridor.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 97,
+    "pk": null,
     "fields": {
-      "name": "Better Than New",
-      "type": "Survivor",
-      "owner": "Rebecca Chambers",
-      "image_path": "static/perks/better_than_new.webp"
+      "name": "Superior Anatomy",
+      "type": "Killer",
+      "owner": "The Singularity",
+      "image_path": "static/perks/superior_anatomy.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 98,
+    "pk": null,
     "fields": {
-      "name": "Hyperfocus",
-      "type": "Survivor",
-      "owner": "Rebecca Chambers",
-      "image_path": "static/perks/hyperfocus.webp"
+      "name": "Surge",
+      "type": "Killer",
+      "owner": "The Demogorgon",
+      "image_path": "static/perks/surge.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 99,
+    "pk": null,
     "fields": {
-      "name": "Reassurance",
-      "type": "Survivor",
-      "owner": "Rebecca Chambers",
-      "image_path": "static/perks/reassurance.webp"
+      "name": "Surveillance",
+      "type": "Killer",
+      "owner": "The Pig",
+      "image_path": "static/perks/surveillance.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 100,
+    "pk": null,
     "fields": {
-      "name": "Fogwise",
-      "type": "Survivor",
-      "owner": "Vittorio Toscano",
-      "image_path": "static/perks/fogwise.webp"
+      "name": "Terminus",
+      "type": "Killer",
+      "owner": "The Mastermind",
+      "image_path": "static/perks/terminus.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 101,
+    "pk": null,
     "fields": {
-      "name": "Potential Energy",
-      "type": "Survivor",
-      "owner": "Vittorio Toscano",
-      "image_path": "static/perks/potential_energy.webp"
+      "name": "Territorial Imperative",
+      "type": "Killer",
+      "owner": "The Huntress",
+      "image_path": "static/perks/territorial_imperative.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 102,
+    "pk": null,
     "fields": {
-      "name": "Quick Gambit",
-      "type": "Survivor",
-      "owner": "Vittorio Toscano",
-      "image_path": "static/perks/quick_gambit.webp"
+      "name": "Thanatophobia",
+      "type": "Killer",
+      "owner": "The Nurse",
+      "image_path": "static/perks/thanatophobia.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 103,
+    "pk": null,
     "fields": {
-      "name": "Cut Loose",
-      "type": "Survivor",
-      "owner": "Thalita Lyra",
-      "image_path": "static/perks/cut_loose.webp"
+      "name": "Hex: The Third Seal",
+      "type": "Killer",
+      "owner": "The Hag",
+      "image_path": "static/perks/the_third_seal.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 104,
+    "pk": null,
     "fields": {
-      "name": "Friendly Competition",
-      "type": "Survivor",
-      "owner": "Thalita Lyra",
-      "image_path": "static/perks/friendly_competition.webp"
+      "name": "Hex: Thrill of the Hunt",
+      "type": "Killer",
+      "owner": "Common",
+      "image_path": "static/perks/thrill_of_the_hunt.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 105,
+    "pk": null,
     "fields": {
-      "name": "Teamwork: Power of Two",
-      "type": "Survivor",
-      "owner": "Thalita Lyra",
-      "image_path": "static/perks/teamwork_power_of_two.webp"
+      "name": "Thrilling Tremors",
+      "type": "Killer",
+      "owner": "The Ghost Face",
+      "image_path": "static/perks/thrilling_tremors.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 106,
+    "pk": null,
     "fields": {
-      "name": "Background Player",
-      "type": "Survivor",
-      "owner": "Renato Lyra",
-      "image_path": "static/perks/background_player.webp"
+      "name": "THWACK!",
+      "type": "Killer",
+      "owner": "The Skull Merchant",
+      "image_path": "static/perks/thwack.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 107,
+    "pk": null,
     "fields": {
-      "name": "Blood Rush",
-      "type": "Survivor",
-      "owner": "Renato Lyra",
-      "image_path": "static/perks/blood_rush.webp"
+      "name": "Tinkerer",
+      "type": "Killer",
+      "owner": "The Hillbilly",
+      "image_path": "static/perks/tinkerer.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 108,
+    "pk": null,
     "fields": {
-      "name": "Teamwork: Collective Stealth",
-      "type": "Survivor",
-      "owner": "Renato Lyra",
-      "image_path": "static/perks/teamwork_collective_stealth.webp"
+      "name": "Trail of Torment",
+      "type": "Killer",
+      "owner": "The Executioner",
+      "image_path": "static/perks/trail_of_torment.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 109,
+    "pk": null,
     "fields": {
-      "name": "Troubleshooter",
-      "type": "Survivor",
-      "owner": "Gabriel Soma",
-      "image_path": "static/perks/troubleshooter.webp"
+      "name": "Hex: Two Can Play",
+      "type": "Killer",
+      "owner": "The Good Guy",
+      "image_path": "static/perks/two_can_play.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 110,
+    "pk": null,
     "fields": {
-      "name": "Made for This",
-      "type": "Survivor",
-      "owner": "Gabriel Soma",
-      "image_path": "static/perks/made_for_this.webp"
+      "name": "Ultimate Weapon",
+      "type": "Killer",
+      "owner": "The Xenomorph",
+      "image_path": "static/perks/ultimate_weapon.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 111,
+    "pk": null,
     "fields": {
-      "name": "Scavenger",
-      "type": "Survivor",
-      "owner": "Gabriel Soma",
-      "image_path": "static/perks/scavenger.webp"
+      "name": "Hex: Undying",
+      "type": "Killer",
+      "owner": "The Hag",
+      "image_path": "static/perks/undying.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 112,
+    "pk": null,
     "fields": {
-      "name": "Plot Twist",
-      "type": "Survivor",
-      "owner": "Nicolas Cage",
-      "image_path": "static/perks/plot_twist.webp"
+      "name": "Unnerving Presence",
+      "type": "Killer",
+      "owner": "The Doctor",
+      "image_path": "static/perks/unnerving_presence.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 113,
+    "pk": null,
     "fields": {
-      "name": "Dramaturgy",
-      "type": "Survivor",
-      "owner": "Nicolas Cage",
-      "image_path": "static/perks/dramaturgy.webp"
+      "name": "Unrelenting",
+      "type": "Killer",
+      "owner": "Common",
+      "image_path": "static/perks/unrelenting.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 114,
+    "pk": null,
     "fields": {
-      "name": "Scene Partner",
-      "type": "Survivor",
-      "owner": "Nicolas Cage",
-      "image_path": "static/perks/scene_partner.webp"
+      "name": "Whispers",
+      "type": "Killer",
+      "owner": "Common",
+      "image_path": "static/perks/whispers.webp"
     }
   },
   {
     "model": "perk.Perk",
-    "pk": 115,
+    "pk": null,
     "fields": {
-      "name": "Chemical Trap",
-      "type": "Survivor",
-      "owner": "Ellen Ripley",
-      "image_path": "static/perks/chemical_trap.webp"
-    }
-  },
-  {
-    "model": "perk.Perk",
-    "pk": 116,
-    "fields": {
-      "name": "Light-footed",
-      "type": "Survivor",
-      "owner": "Ellen Ripley",
-      "image_path": "static/perks/light_footed.webp"
-    }
-  },
-  {
-    "model": "perk.Perk",
-    "pk": 117,
-    "fields": {
-      "name": "Lucky Star",
-      "type": "Survivor",
-      "owner": "Ellen Ripley",
-      "image_path": "static/perks/lucky_star.webp"
+      "name": "Zanshin Tactics",
+      "type": "Killer",
+      "owner": "The Oni",
+      "image_path": "static/perks/zanshin_tactics.webp"
     }
   }
 ]
