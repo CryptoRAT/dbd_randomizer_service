@@ -47,4 +47,7 @@ class RandomKillerViewTestCase(TestCase):
     def test_random_survivor_endpoint(self):
         response = self.client.post('/api/killer/random/')
         self.assertEqual(response.status_code, status.HTTP_200_OK)
-        print(response)
+        print(response.data)
+        #
+        # self.assertNotEqual('', response.data.name)
+        # self.assertNotEqual('', response.data.imate_path)

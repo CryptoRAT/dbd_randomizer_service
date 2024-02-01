@@ -396,7 +396,7 @@
       "name": "Franklin's Demise",
       "type": "Killer",
       "owner": "The Cannibal",
-      "image_path": "static/perks/frankins_demise.webp"
+      "image_path": "static/perks/franklins_demise.webp"
     }
   },
   {
@@ -546,7 +546,7 @@
       "name": "Infectious Fright",
       "type": "Killer",
       "owner": "The Plague",
-      "image_path": "static/perks/infections_fright.webp"
+      "image_path": "static/perks/infectious_fright.webp"
     }
   },
   {
@@ -806,7 +806,7 @@
       "name": "Pop Goes the Weasel",
       "type": "Killer",
       "owner": "The Clown",
-      "image_path": "static/perks/pop_goes_the_weasal.webp"
+      "image_path": "static/perks/pop_goes_the_weasel.webp"
     }
   },
   {
@@ -926,7 +926,7 @@
       "name": "Spies From the Shadows",
       "type": "Killer",
       "owner": "Common",
-      "image_path": "static/perks/spies_from_the_shadow.webp"
+      "image_path": "static/perks/spies_from_the_shadows.webp"
     }
   },
   {
