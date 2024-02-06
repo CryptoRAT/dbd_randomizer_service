@@ -53,38 +53,19 @@ class RegisteredUserViewSet(viewsets.ModelViewSet):
 
         return Response({'message': 'User created successfully'}, status=status.HTTP_201_CREATED, headers=headers)
 
-# class UserRegistrationView(View):
-#     @authentication_classes([])  # Empty list to disable authentication
-#     @permission_classes([])  # Empty list to disable permission checks
-#     @csrf_exempt
-#     def create(self, request, *args, **kwargs):
-#         serializer = UserRegistrationSerializer(data=request.data)
-#
-#         if serializer.is_valid():
-#             # Create a new user using Django's User model
-#             username = serializer.validated_data['username']
-#             password = serializer.validated_data['password']
-#             display_name = serializer.validated_data['display_name']
-#             email = serializer.validated_data['email']
-#             new_user = RegisteredUser.objects.create_user(username=username,
-#                                                           password=password,
-#                                                           display_name=display_name,
-#                                                           email=email)
-#
-#             return Response({'message': 'Registration successful'}, status=status.HTTP_200_OK)
-#
-#         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-#
 
 class LoginView(APIView):
+
     permission_classes = [AllowAny]
     authentication_classes = [JWTAuthentication]
 
     def post(self, request, *args, **kwargs):
+        print("Executing a post on /login/ ")
         try:
             # Your login logic here
-            username = request.data.get('username')
-            password = request.data.get('password')
+            username = str(request.data.get('email'))
+            password = str(request.data.get('password'))
+            print("Username: " + username)
 
             # Validate credentials using Django's authenticate method
             user = authenticate(request, username=username, password=password)
