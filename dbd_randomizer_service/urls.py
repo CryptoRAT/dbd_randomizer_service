@@ -28,5 +28,6 @@ urlpatterns = [
     re_path('api/survivor/', include('survivor.urls')),
     re_path('api/killer/', include('killer.urls')),
     re_path('api/perk/', include('perk.urls')),
+    re_path('api/user/', include('user.urls')),
     re_path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
 ]
