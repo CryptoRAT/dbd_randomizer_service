@@ -112,7 +112,8 @@ WSGI_APPLICATION = 'dbd_randomizer_service.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD", "dev_password")
-
+DATABASE_HOST = os.getenv("DATABASE_HOST"),
+DATABASE_USER = os.getenv("DATABASE_USER")
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -120,10 +121,10 @@ DATABASES = {
     },
     'production': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dbd-randomizer-db',
-        'USER': 'dbd-randomizer-db',
+        'NAME': 'dbd-randomizer',
+        'USER': DATABASE_USER,
         'PASSWORD': DATABASE_PASSWORD,
-        'HOST': 'app-62604efd-54fe-40b7-857b-1a943a172beb-do-user-1765928-0.c.db.ondigitalocean.com',
+        'HOST': DATABASE_HOST,
         'PORT': '25060',
     }
 }
@@ -185,8 +186,6 @@ CSRF_COOKIE_SECURE = True
 CSRF_COOKIE_HTTPONLY = True
 CSRF_COOKIE_NAME = "csrftoken"
 REST_USE_JWT = True
-
-ENVIRONMENT = 'production'
 
 if ENVIRONMENT == 'production':
     from .settings_prod import *
