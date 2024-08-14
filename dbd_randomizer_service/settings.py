@@ -31,8 +31,6 @@ DEBUG = os.getenv("DEBUG", "False") == "True"
 ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS",
                           "127.0.0.1,"
                           "localhost,"
-                          "https://clownfish-app-8qi77.ondigitalocean.app,"
-                          "clownfish-app-8qi77.ondigitalocean.app,"
                           "https://www.cryptorat.com,"
                           "https://cryptorat.com").split(",")
 
