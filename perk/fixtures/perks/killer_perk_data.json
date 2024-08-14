@@ -1148,5 +1148,125 @@
       "owner": "The Oni",
       "image_path": "static/perks/zanshin_tactics.webp"
     }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": null,
+    "fields": {
+      "name": "Batteries Included",
+      "type": "Killer",
+      "owner": "The Good Guy",
+      "image_path": "static/perks/batteries_included.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": null,
+    "fields": {
+      "name": "Friends til the End",
+      "type": "Killer",
+      "owner": "The Good Guy",
+      "image_path": "static/perks/friends_til_the_end.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": null,
+    "fields": {
+      "name": "Hex: Two Can Play",
+      "type": "Killer",
+      "owner": "The Good Guy",
+      "image_path": "static/perks/hex_two_can_play.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": null,
+    "fields": {
+      "name": "Unbound",
+      "type": "Killer",
+      "owner": "The Unknown",
+      "image_path": "static/perks/unbound.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": null,
+    "fields": {
+      "name": "Undone",
+      "type": "Killer",
+      "owner": "The Unknown",
+      "image_path": "static/perks/undone.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": null,
+    "fields": {
+      "name": "Unforeseen",
+      "type": "Killer",
+      "owner": "The Unknown",
+      "image_path": "static/perks/unforeseen.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": null,
+    "fields": {
+      "name": "Dark Arrogance",
+      "type": "Killer",
+      "owner": "The Lich",
+      "image_path": "static/perks/dark_arrogance.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": null,
+    "fields": {
+      "name": "Languid Touch",
+      "type": "Killer",
+      "owner": "The Lich",
+      "image_path": "static/perks/languid_touch.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": null,
+    "fields": {
+      "name": "Weave Attunement",
+      "type": "Killer",
+      "owner": "The Lich",
+      "image_path": "static/perks/weave_attunement.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": null,
+    "fields": {
+      "name": "Dominance",
+      "type": "Killer",
+      "owner": "The Dark Lord",
+      "image_path": "static/perks/dominance.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": null,
+    "fields": {
+      "name": "Hex: Wretched Fate",
+      "type": "Killer",
+      "owner": "The Dark Lord",
+      "image_path": "static/perks/hex_wretched_fate.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+    "pk": null,
+    "fields": {
+      "name": "Human Greed",
+      "type": "Killer",
+      "owner": "The Dark Lord",
+      "image_path": "static/perks/human_greed.webp"
+    }
   }
 ]

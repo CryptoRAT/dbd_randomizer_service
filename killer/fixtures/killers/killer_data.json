@@ -270,5 +270,37 @@
       "name": "The Xenomorph",
       "image_path": "../static/killers/the_xenomorph.webp"
     }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": null,
+    "fields": {
+      "name": "The Good Guy",
+      "image_path": "../static/killers/the_good_guy.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": null,
+    "fields": {
+      "name": "The Unknown",
+      "image_path": "../static/killers/the_unknown.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": null,
+    "fields": {
+      "name": "The Lich",
+      "image_path": "../static/killers/the_lich.webp"
+    }
+  },
+  {
+    "model": "killer.Killer",
+    "pk": null,
+    "fields": {
+      "name": "The Dark Lord",
+      "image_path": "../static/killers/the_dark_lord.webp"
+    }
   }
 ]

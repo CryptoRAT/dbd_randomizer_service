@@ -310,5 +310,45 @@
       "name": "Ellen Ripley",
       "image_path": "static/survivors/ellen_ripley.jpg"
     }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": null,
+    "fields": {
+      "name": "Alan Wake",
+      "image_path": "static/survivors/alan_wake.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": null,
+    "fields": {
+      "name": "Sable Ward",
+      "image_path": "static/survivors/sable_ward.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": null,
+    "fields": {
+      "name": "The Troupe",
+      "image_path": "static/survivors/the_troupe.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": null,
+    "fields": {
+      "name": "Lara Croft",
+      "image_path": "static/survivors/lara_croft.jpg"
+    }
+  },
+  {
+    "model": "survivor.Survivor",
+    "pk": null,
+    "fields": {
+      "name": "Trevor Belmont",
+      "image_path": "static/survivors/trevor_belmont.jpg"
+    }
   }
 ]

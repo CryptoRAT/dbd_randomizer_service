@@ -1168,5 +1168,95 @@
       "owner": "Ellen Ripley",
       "image_path": "static/perks/lucky_star.webp"
     }
+  },
+  {
+    "model": "perk.Perk",
+     "pk": null,
+    "fields": {
+      "name": "Bardic Inspiration",
+      "type": "Survivor",
+      "owner": "The Troupe",
+      "image_path": "static/perks/bardic_inspiration.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+     "pk": null,
+    "fields": {
+      "name": "Mirrored Illusion",
+      "type": "Survivor",
+      "owner": "The Troupe",
+      "image_path": "static/perks/mirrored_illusion.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+     "pk": null,
+    "fields": {
+      "name": "Still Sight",
+      "type": "Survivor",
+      "owner": "The Troupe",
+      "image_path": "static/perks/still_sight.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+     "pk": null,
+    "fields": {
+      "name": "Finesse",
+      "type": "Survivor",
+      "owner": "Lara Croft",
+      "image_path": "static/perks/finesse.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+     "pk": null,
+    "fields": {
+      "name": "Hardened",
+      "type": "Survivor",
+      "owner": "Lara Croft",
+      "image_path": "static/perks/hardened.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+     "pk": null,
+    "fields": {
+      "name": "Specialist",
+      "type": "Survivor",
+      "owner": "Lara Croft",
+      "image_path": "static/perks/specialist.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+     "pk": null,
+    "fields": {
+      "name": "Exultation",
+      "type": "Survivor",
+      "owner": "Trevor Belmont",
+      "image_path": "static/perks/exultation.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+     "pk": null,
+    "fields": {
+      "name": "Eyes of Belmont",
+      "type": "Survivor",
+      "owner": "Trevor Belmont",
+      "image_path": "static/perks/eyes_of_belmont.webp"
+    }
+  },
+  {
+    "model": "perk.Perk",
+     "pk": null,
+    "fields": {
+      "name": "Moment of Glory",
+      "type": "Survivor",
+      "owner": "Trevor Belmont",
+      "image_path": "static/perks/moment_of_glory.webp"
+    }
   }
 ]
