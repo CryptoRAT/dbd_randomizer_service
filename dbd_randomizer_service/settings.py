@@ -31,6 +31,8 @@ DEBUG = os.getenv("DEBUG", "False") == "True"
 ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS",
                           "127.0.0.1,"
                           "localhost,"
+                          "https://services.cryptorat.com,"
+                          "http://services.cryptorat.com,"
                           "https://www.cryptorat.com,"
                           "https://cryptorat.com").split(",")
 
