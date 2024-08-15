@@ -29,13 +29,9 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", get_random_secret_key())
 DEBUG = os.getenv("DEBUG", "False") == "True"
 
 print(f"Django Allowed Hosts: {os.getenv('DJANGO_ALLOWED_HOSTS')}")
-ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS",
-                          "127.0.0.1,"
-                          "localhost,"
-                          "https://services.cryptorat.com,"
-                          "http://services.cryptorat.com,"
-                          "https://www.cryptorat.com,"
-                          "https://cryptorat.com").split(",")
+ALLOWED_HOSTS = [
+                          "127.0.0.1",
+                          "localhost"]
 
 print(f"Allowed Hosts: {ALLOWED_HOSTS}")
 # Application definition
