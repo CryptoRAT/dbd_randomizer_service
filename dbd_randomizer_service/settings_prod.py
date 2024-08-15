@@ -7,6 +7,8 @@ ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS",
                           "127.0.0.1,"
                           "localhost,"
                           "https://services.cryptorat.com,"
+                          "http://services.cryptorat.com,"
+                          "services.cryptorat.com,"
                           "https://www.cryptorat.com,"
                           "https://cryptorat.com").split(",")
 DEBUG = True
