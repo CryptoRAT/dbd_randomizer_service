@@ -193,3 +193,7 @@ elif ENVIRONMENT == 'test':
     from .settings_test import *
 else:
     from .settings_dev import *
+
+# Print the environment and allowed hosts for debugging purposes
+print(f"Environment: {ENVIRONMENT}")
+print(f"Allowed Hosts: {ALLOWED_HOSTS}")

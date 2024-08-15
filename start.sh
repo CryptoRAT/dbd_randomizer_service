@@ -1,8 +1,4 @@
 #!/bin/bash
-echo "Environment: $DJANGO_ENV"
-
-echo "Allowed hosts: $ALLOWED_HOSTS"
-
 # Apply database migrations
 echo "Applying database migrations..."
 python manage.py migrate
