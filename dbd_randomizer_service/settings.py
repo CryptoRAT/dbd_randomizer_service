@@ -45,15 +45,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'django_extensions',
-    'user.apps.UsersConfig',
-    'survivor.apps.SurvivorConfig',
-    'killer.apps.KillerConfig',
-    'perk.apps.PerksConfig',
     'rest_framework',
     'rest_framework.authtoken',
     'dj_rest_auth',
     'dj_rest_auth.registration',
-
+    # apps from this project
+    'killer',
+    'perk',
+    'survivor',
+    'user'
 ]
 
 REST_FRAMEWORK = {
@@ -108,8 +108,9 @@ WSGI_APPLICATION = 'dbd_randomizer_service.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
+DATABASE_NAME = os.getenv("DATABASE_NAME")
 DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD", "dev_password")
-DATABASE_HOST = os.getenv("DATABASE_HOST"),
+DATABASE_HOST = os.getenv("DATABASE_HOST")
 DATABASE_USER = os.getenv("DATABASE_USER")
 DATABASES = {
     'default': {
@@ -118,7 +119,7 @@ DATABASES = {
     },
     'production': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dbd-randomizer',
+        'NAME': DATABASE_NAME,
         'USER': DATABASE_USER,
         'PASSWORD': DATABASE_PASSWORD,
         'HOST': DATABASE_HOST,

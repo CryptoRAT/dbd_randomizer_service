@@ -1,10 +1,19 @@
 from pathlib import Path
 import os
+from .settings import *
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
-# This should be kept in sync with main settings.py. If you change one, change the other.
-# TODO: Better yet find a way to combine them so we only need to update one place.
-BASE_DIR = Path(__file__).resolve().parent.parent
+CSRF_COOKIE_SAMESITE = 'None'
+CSRF_COOKIE_SECURE = False
+CORS_ALLOW_CREDENTIALS = True
+RUN_SERVER_SSL = "/Users/lukelliot/certs/cert.crt"
+RUN_SERVER_SSL_KEY = "/Users/lukelliot/certs/key.key"
+DEBUG = True
+
+CSRF_COOKIE_DOMAIN = 'localhost'
+CSRF_TRUSTED_ORIGINS = ['http://localhost:3000', 'https://localhost:3000']
+CSRF_ALLOWED_ORIGINS = ['http://localhost:3000', 'https://localhost:3000']
+CORS_ORIGINS_WHITELIST = ['http://localhost:3000', 'https://localhost:3000']
+
 
 DATABASES = {
     'default': {
