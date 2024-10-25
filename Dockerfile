@@ -23,6 +23,8 @@ RUN pip install -r requirements.txt
 
 # port where the Django app runs
 EXPOSE 8000
+# Make both scripts executable
+RUN chmod +x start.sh start_prod.sh
 
-# start server (use JSON format for ENTRYPOINT)
-ENTRYPOINT ["./start.sh"]
+# Switch between scripts based on DJANGO_ENV
+ENTRYPOINT ["sh", "-c", "if [ \"$DJANGO_ENV\" = 'production' ]; then ./start_prod.sh; else ./start.sh; fi"]
