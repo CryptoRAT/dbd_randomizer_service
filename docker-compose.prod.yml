@@ -1,0 +1,14 @@
+services:
+  web:
+    environment:
+      - DJANGO_ENV=production
+    env_file:
+      - .env.prod
+    command: start_prod.sh
+    ports:
+      - "80:8000"
+    volumes: []  # No volume mount in production
+
+  db:
+    env_file:
+      - .env.prod

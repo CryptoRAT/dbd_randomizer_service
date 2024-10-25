@@ -1,3 +1,10 @@
 /staticfiles/*
 /db.sqlite3
+# IDE files
 /.idea
+# virtual environment
+/venv/
+# Environment files we shouldn't be committing.
+.env.prod
+.env.test
+.env.staging
