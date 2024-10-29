@@ -5,5 +5,5 @@ class Survivor(models.Model):
     name = models.CharField(max_length=120)
     image_path = models.TextField()
 
-    def _str_(self):
+    def __str__(self):
         return self.name

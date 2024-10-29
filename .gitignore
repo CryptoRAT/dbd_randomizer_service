@@ -8,3 +8,6 @@
 .env.prod
 .env.test
 .env.staging
+/.coverage
+
+/reports/

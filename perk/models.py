@@ -10,5 +10,5 @@ class Perk(models.Model):
    )
     image_path = models.TextField()
 
-    def _str_(self):
+    def __self__(self):
         return self.name
