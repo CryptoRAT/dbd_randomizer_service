@@ -8,7 +8,3 @@ services:
     ports:
       - "80:8000"
     volumes: []  # No volume mount in production
-
-  db:
-    env_file:
-      - .env.prod
