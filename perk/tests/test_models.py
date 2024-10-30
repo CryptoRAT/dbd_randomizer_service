@@ -1,4 +1,5 @@
 import pytest
+import json
 from perk.models import Perk
 from django.core.exceptions import ValidationError
 
@@ -29,8 +30,39 @@ def test_perk_str_method():
         image_path="/path/to/borrowedtime.jpg"
     )
 
-    assert str(perk) == "Borrowed Time"
+    assert str(perk) == "Borrowed Time (Survivor, Bill Overbeck)"
 
+
+@pytest.mark.django_db
+def test_perk_to_json_with_internal_serializer():
+    # Create a Perk instance
+    perk = Perk.objects.create(
+        name='Dead Hard',
+        owner='David King',
+        type='Survivor',
+        image_path='/path/to/dead_hard.jpg'
+    )
+
+    # Get the JSON representation using the internal serializer
+    perk_json = perk.to_json()
+
+    # Convert the JSON string back to a Python list for comparison
+    perk_list = json.loads(perk_json)
+
+    # Verify that the JSON contains the correct structure and data
+    assert len(perk_list) == 1  # Ensure it's a list with one element
+    perk_data = perk_list[0]
+
+    # Verify the model and pk metadata
+    assert perk_data['model'] == 'perk.perk'
+    assert perk_data['pk'] == perk.pk
+
+    # Verify the fields
+    fields = perk_data['fields']
+    assert fields['name'] == 'Dead Hard'
+    assert fields['owner'] == 'David King'
+    assert fields['type'] == 'Survivor'
+    assert fields['image_path'] == '/path/to/dead_hard.jpg'
 
 @pytest.mark.django_db
 def test_perk_invalid_type():
