@@ -92,23 +92,6 @@ def test_killer_delete():
     assert Killer.objects.filter(pk=killer.pk).count() == 0
 
 @pytest.mark.django_db
-def test_random_killer_post():
-    client = APIClient()
-    # Create some Killer instances
-    Killer.objects.create(name='Freddy Krueger', image_path='/path/to/freddy.jpg')
-    Killer.objects.create(name='Jason Voorhees', image_path='/path/to/jason.jpg')
-
-    url = reverse('killer-random')  # Assuming the view is registered with 'killer-random'
-
-    # Send POST request
-    response = client.post(url, format='json')
-
-    # Check that the response is successful and a random killer is returned
-    assert response.status_code == status.HTTP_200_OK
-    assert 'name' in response.data
-    assert 'image_path' in response.data
-
-@pytest.mark.django_db
 def test_random_killer_get():
     client = APIClient()
     url = reverse('killer-random')

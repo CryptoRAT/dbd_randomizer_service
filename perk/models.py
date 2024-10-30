@@ -2,11 +2,15 @@ from django.db import models
 from django.core import serializers
 
 class Perk(models.Model):
+    TYPE_CHOICES = [
+        ("Survivor", "Survivor"),
+        ("Killer", "Killer"),
+    ]
     name = models.CharField(max_length=120)
     owner = models.CharField(max_length=30)
     type = models.CharField(
        max_length=10,
-       choices=[("Survivor", "Killer")],  # some list of choices
+       choices=TYPE_CHOICES
    )
     image_path = models.TextField()
 

@@ -49,12 +49,9 @@ class SurvivorView(viewsets.ModelViewSet):
 class RandomSurvivorView(viewsets.ModelViewSet):
 
     def random(self, request, *args, **kwargs):
-        if request.method == 'POST':
+        if request.method == 'GET':
             # Handle POST logic here
             survivor = Survivor.objects.order_by('?').first()
             serializer = SurvivorSerializer(survivor)
             return Response(serializer.data, status=status.HTTP_200_OK)
-        else:
-            # Handle GET logic here
-            print("GET request successful")
 
