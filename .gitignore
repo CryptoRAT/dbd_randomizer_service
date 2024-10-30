@@ -8,6 +8,8 @@
 .env.prod
 .env.test
 .env.staging
-/.coverage
 
-/reports/
+# Test output files
+**/.coverage
+
+**/reports/
