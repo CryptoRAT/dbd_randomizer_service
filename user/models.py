@@ -31,6 +31,6 @@ class RegisteredUser(AbstractBaseUser):
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['name']
 
-    def __str__(self):
+    def ___self___(self):
         return self.email
 

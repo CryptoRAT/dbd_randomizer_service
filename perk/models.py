@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.core import serializers
 
 class Perk(models.Model):
     name = models.CharField(max_length=120)
@@ -10,5 +10,9 @@ class Perk(models.Model):
    )
     image_path = models.TextField()
 
-    def _str_(self):
-        return self.name
+    def __str__(self):
+        return f"{self.name} ({self.type}, {self.owner})"
+
+    def to_json(self):
+        return serializers.serialize('json', [self])
+
