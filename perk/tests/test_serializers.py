@@ -47,7 +47,7 @@ def test_perk_serializer_create():
     serializer = PerkSerializer(data=valid_data)
 
     # Check that the data is valid
-    assert serializer.is_valid()
+    assert serializer.is_valid(), serializer.errors
 
     # Save the object and check if it was created properly
     perk = serializer.save()
@@ -55,6 +55,7 @@ def test_perk_serializer_create():
     assert perk.owner == 'David King'
     assert perk.type == 'Survivor'
     assert perk.image_path == '/path/to/dead_hard.jpg'
+
 
 @pytest.mark.django_db
 def test_perk_serializer_update():
@@ -73,7 +74,7 @@ def test_perk_serializer_update():
     serializer = PerkSerializer(instance=perk, data=update_data)
 
     # Check that the data is valid
-    assert serializer.is_valid()
+    assert serializer.is_valid(), serializer.errors
 
     # Save the updated instance
     updated_perk = serializer.save()
@@ -83,3 +84,4 @@ def test_perk_serializer_update():
     assert updated_perk.owner == 'Leatherface'
     assert updated_perk.type == 'Killer'
     assert updated_perk.image_path == '/path/to/bbq_chili.jpg'
+

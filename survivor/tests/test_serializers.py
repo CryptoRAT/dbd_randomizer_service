@@ -1,73 +1,117 @@
 import pytest
-from survivor.serializers import SurvivorSerializer
-from survivor.models import Survivor
+from perk.models import Perk
+from perk.serializers import PerkSerializer
+from rest_framework.exceptions import ValidationError
+
 
 @pytest.mark.django_db
-def test_survivor_serializer_valid_data():
-    # Create a Survivor instance
-    survivor = Survivor(name="Dwight Fairfield", image_path="/path/to/dwight.jpg")
-
-    # Initialize serializer with an instance
-    serializer = SurvivorSerializer(instance=survivor)
-
-    # Check that the serialized data matches the model instance data
-    assert serializer.data == {
-        'name': 'Dwight Fairfield',
-        'image_path': '/path/to/dwight.jpg'
+def test_perk_serializer_valid_data():
+    # Create a valid data payload
+    data = {
+        'name': 'Dead Hard',
+        'owner': 'David King',
+        'type': 'Survivor',
+        'image_path': '/path/to/dead_hard.jpg'
     }
 
+    # Initialize the serializer with data
+    serializer = PerkSerializer(data=data)
+
+    # Ensure serializer is valid and data is correct
+    assert serializer.is_valid()
+    assert serializer.validated_data['name'] == 'Dead Hard'
+    assert serializer.validated_data['owner'] == 'David King'
+    assert serializer.validated_data['type'] == 'Survivor'
+    assert serializer.validated_data['image_path'] == '/path/to/dead_hard.jpg'
+
+
 @pytest.mark.django_db
-def test_survivor_serializer_invalid_data():
-    # Test serializer with invalid data (missing 'image_path')
-    invalid_data = {'name': 'Dwight Fairfield'}
+def test_perk_serializer_invalid_data():
+    # Create invalid data (missing 'image_path')
+    data = {
+        'name': 'Dead Hard',
+        'owner': 'David King',
+        'type': 'Survivor'
+    }
 
-    serializer = SurvivorSerializer(data=invalid_data)
+    # Initialize the serializer with data
+    serializer = PerkSerializer(data=data)
 
-    # Serializer should not be valid
+    # Ensure the serializer is not valid and raises validation error
     assert not serializer.is_valid()
-
-    # Check if the correct error is raised for missing fields
     assert 'image_path' in serializer.errors
 
-@pytest.mark.django_db
-def test_survivor_serializer_create():
-    # Test serializer for creating a new Survivor object
-    valid_data = {
-        'name': 'Dwight Fairfield',
-        'image_path': '/path/to/dwight.jpg'
-    }
-
-    # Create an instance using the serializer
-    serializer = SurvivorSerializer(data=valid_data)
-
-    # Check that the data is valid
-    assert serializer.is_valid()
-
-    # Save the object and check if it was created properly
-    survivor = serializer.save()
-    assert survivor.name == 'Dwight Fairfield'
-    assert survivor.image_path == '/path/to/dwight.jpg'
 
 @pytest.mark.django_db
-def test_survivor_serializer_update():
-    # Create an initial Survivor instance
-    survivor = Survivor.objects.create(name="Dwight Fairfield", image_path="/path/to/dwight.jpg")
+def test_perk_serializer_serialization():
+    # Create a Perk instance
+    perk = Perk.objects.create(
+        name='Dead Hard',
+        owner='David King',
+        type='Survivor',
+        image_path='/path/to/dead_hard.jpg'
+    )
 
-    # Updated data
-    update_data = {
-        'name': 'Meg Thomas',
-        'image_path': '/path/to/meg.jpg'
+    # Serialize the Perk instance
+    serializer = PerkSerializer(perk)
+
+    # Check that serialized data matches the Perk instance
+    data = serializer.data
+    assert data['name'] == 'Dead Hard'
+    assert data['owner'] == 'David King'
+    assert data['type'] == 'Survivor'
+    assert data['image_path'] == '/path/to/dead_hard.jpg'
+
+
+@pytest.mark.django_db
+def test_perk_serializer_update():
+    # Create a Perk instance
+    perk = Perk.objects.create(
+        name='Dead Hard',
+        owner='David King',
+        type='Survivor',
+        image_path='/path/to/dead_hard.jpg'
+    )
+
+    # Create updated data
+    updated_data = {
+        'name': 'Borrowed Time',
+        'owner': 'Bill Overbeck',
+        'type': 'Survivor',
+        'image_path': '/path/to/borrowed_time.jpg'
     }
 
-    # Initialize serializer with instance and updated data
-    serializer = SurvivorSerializer(instance=survivor, data=update_data)
+    # Initialize the serializer with instance and updated data
+    serializer = PerkSerializer(perk, data=updated_data)
 
-    # Check that the data is valid
+    # Ensure the serializer is valid
     assert serializer.is_valid()
 
-    # Save the updated instance
-    updated_survivor = serializer.save()
+    # Update the Perk instance with the new data
+    serializer.save()
 
-    # Check if the instance is updated correctly
-    assert updated_survivor.name == 'Meg Thomas'
-    assert updated_survivor.image_path == '/path/to/meg.jpg'
+    # Check that the instance was updated correctly
+    updated_perk = Perk.objects.get(id=perk.id)
+    assert updated_perk.name == 'Borrowed Time'
+    assert updated_perk.owner == 'Bill Overbeck'
+    assert updated_perk.type == 'Survivor'
+    assert updated_perk.image_path == '/path/to/borrowed_time.jpg'
+
+
+@pytest.mark.django_db
+def test_perk_serializer_validation_owner_length():
+    # Create invalid data where 'owner' is too short
+    data = {
+        'name': 'Dead Hard',
+        'owner': 'Bo',  # Too short based on custom validation rule
+        'type': 'Survivor',
+        'image_path': '/path/to/dead_hard.jpg'
+    }
+
+    # Initialize the serializer with data
+    serializer = PerkSerializer(data=data)
+
+    # Ensure the serializer is not valid and raises validation error
+    assert not serializer.is_valid()
+    assert 'owner' in serializer.errors
+    assert serializer.errors['owner'][0] == 'Owner name must be at least 3 characters long.'

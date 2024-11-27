@@ -25,12 +25,14 @@ class RegisteredUser(AbstractBaseUser):
     name = models.CharField(max_length=100)
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
+    is_superuser = models.BooleanField(default=False)
 
     objects = RegisteredUserManager()
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['name']
 
-    def ___self___(self):
-        return self.email
+
+    def __str__(self):
+        return f"{self.email}: {self.name}"
 

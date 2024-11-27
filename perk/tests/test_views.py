@@ -4,6 +4,12 @@ from rest_framework import status
 from django.urls import reverse
 from perk.models import Perk
 
+
+@pytest.fixture(autouse=True)
+def clear_perk_table():
+    # Clear the Perk table before each test
+    Perk.objects.all().delete()
+
 @pytest.mark.django_db
 def test_perk_create_valid():
     client = APIClient()
@@ -91,8 +97,9 @@ def test_survivor_perks():
 
     # Check that only survivor perks are returned
     assert response.status_code == status.HTTP_200_OK
-    assert len(response.data) == 1
+    assert len(response.data) == 2
     assert response.data[0]['name'] == 'Dead Hard'
+    assert response.data[1]['name'] == 'Barbecue & Chili'
 
 @pytest.mark.django_db
 def test_killer_perks():

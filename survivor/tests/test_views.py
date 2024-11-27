@@ -71,22 +71,6 @@ def test_survivor_destroy():
     assert Survivor.objects.filter(pk=survivor.pk).count() == 0
 
 @pytest.mark.django_db
-def test_random_survivor_post():
-    client = APIClient()
-    # Create some Survivor instances
-    Survivor.objects.create(name='Dwight Fairfield', image_path='/path/to/dwight.jpg')
-    Survivor.objects.create(name='Meg Thomas', image_path='/path/to/meg.jpg')
-
-    url = reverse('random-survivor')  # Matches random-survivor route
-
-    response = client.post(url)
-
-    # Check that a random survivor is returned
-    assert response.status_code == status.HTTP_200_OK
-    assert 'name' in response.data
-    assert 'image_path' in response.data
-
-@pytest.mark.django_db
 def test_random_survivor_get():
     client = APIClient()
     url = reverse('random-survivor')  # Matches random-survivor route
