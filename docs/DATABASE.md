@@ -55,21 +55,59 @@ Check that the `dev_user` role has the correct privileges:
 
 ---
 
+### 2. Create the Test Environment Role and User
+
+#### Create the Role
+```sql
+CREATE ROLE test_user WITH LOGIN PASSWORD 'test_password';
+```
+
+#### Grant Privileges
+Allow the role to create databases:
+```sql
+ALTER ROLE test_user CREATEDB;
+```
+
+---
+
+### 3. Create the Test Database
+
+Create the test database and assign ownership to the `test_user` role:
+```sql
+CREATE DATABASE dbd_randomizer_db_test OWNER test_user;
+```
+
+---
+
+### 4. Verify Permissions
+
+Check that the `test_user` role has the correct privileges:
+```sql
+\c dbd_randomizer_db_test
+\du
+```
+---
+
 ## Notes
 
-- **Default Role and User**:
-  - Role: `dev_user`
-  - Password: `dev_password`
-  - Database: `dbd_randomizer_db_dev`
+- **Default Roles and User**:
+- - Development
+  - - Role: `dev_user`
+  - - Password: `dev_password`
+  - - Database: `dbd_randomizer_db_dev`
+- - Test
+- - - Role: `test_user`
+- - - Password: `test_pazssword`
+- - - Database: `dbd_randomizer_db_test`
 
 - **Database Host**: `localhost`
 - **Port**: `5432`
 
-- These values are defined in the `settings_dev.py` file. Update the file if changes are made to the database configuration.
+- These values are defined in the `settings_dev.py`, `settings_test.py`, and `settings_prod.py` files. Update the corresponding file if changes are made to the database configuration.
 
 - **Security**:
   - Do not use the development credentials in production.
-  - Ensure the `dev_password` is only shared among trusted developers.
+  - Do not use the test credentials in production
 
 ---
 
@@ -97,4 +135,4 @@ Repeat steps 2 and 3 if you need to recreate the database or role.
 
 ---
 
-Following these steps will ensure that the development database is correctly configured and ready for use.
+Following these steps will ensure that the development and test databases is correctly configured and ready for use.
