@@ -14,28 +14,44 @@ from pathlib import Path
 import os
 from django.core.management.utils import get_random_secret_key
 
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# Override default settings based on environment
+ENVIRONMENT = os.environ.get('DJANGO_ENV', 'development')
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
+# Load environment-specific settings
+if ENVIRONMENT == 'production':
+    from .settings_prod import *
+elif ENVIRONMENT == 'test':
+    from .settings_test import *
+else:
+    from .settings_dev import *
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", get_random_secret_key())
+# Load runtime environment variables with defaults
+SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", SECRET_KEY or get_random_secret_key())
+DEBUG = os.getenv("DEBUG", str(DEBUG)).lower() == "true"  # Prefer runtime, default to False
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv("DEBUG", "False") == "True"
+# Print a warning if in production and DEBUG is enabled
+if ENVIRONMENT == "production" and DEBUG:
+    print("WARNING: DEBUG mode is enabled in production. This is a security risk!")
 
-print(f"Django Allowed Hosts: {os.getenv('DJANGO_ALLOWED_HOSTS')}")
-ALLOWED_HOSTS = [
-                          "127.0.0.1",
-                          "localhost"]
+ALLOWED_HOSTS = os.getenv(
+    "DJANGO_ALLOWED_HOSTS",
+    ",".join(ALLOWED_HOSTS) if "ALLOWED_HOSTS" in globals() else "127.0.0.1,localhost"
+).split(",")
 
+DATABASE_NAME = os.getenv("DATABASE_NAME", DATABASE_NAME)
+DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD", DATABASE_PASSWORD)
+DATABASE_HOST = os.getenv("DATABASE_HOST", DATABASE_HOST)
+DATABASE_USER = os.getenv("DATABASE_USER", DATABASE_USER)
+DATABASE_PORT = os.getenv("DATABASE_PORT", DATABASE_PORT)
+
+# Debugging output
+print(f"Environment: {ENVIRONMENT}")
 print(f"Allowed Hosts: {ALLOWED_HOSTS}")
-# Application definition
 
+# Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -55,7 +71,7 @@ INSTALLED_APPS = [
     'survivor',
     'user'
 ]
-
+print(f"Installed Apps: {INSTALLED_APPS}")
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.TokenAuthentication',
@@ -74,23 +90,17 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
 ]
 
-CORS_ALLOW_CREDENTIALS = True
-# CORS_ALLOW_ALL_ORIGINS = True
-CORS_ALLOWED_ORIGINS = [
-    "https://cryptorat.com",
-    "https://www.cryptorat.com",
-    "https://clownfish-app-8qi77.ondigitalocean.app",
-    "https://localhost:3000",
-    "http://localhost:3000",
-]
+CORS_ALLOW_CREDENTIALS = os.getenv("CORS_ALLOW_CREDENTIALS", "True").lower() == "true"
+CSRF_COOKIE_SECURE = os.getenv("CSRF_COOKIE_SECURE", "False").lower() == "true"
+CSRF_COOKIE_HTTPONLY = True
+CSRF_COOKIE_NAME = "csrftoken"
 
 ROOT_URLCONF = 'dbd_randomizer_service.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
-        ,
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -105,93 +115,35 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'dbd_randomizer_service.wsgi.application'
 
-
 # Database
-# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-DATABASE_NAME = os.getenv("DATABASE_NAME")
-DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD", "dev_password")
-DATABASE_HOST = os.getenv("DATABASE_HOST")
-DATABASE_USER = os.getenv("DATABASE_USER")
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    },
-    'production': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': DATABASE_NAME,
         'USER': DATABASE_USER,
         'PASSWORD': DATABASE_PASSWORD,
         'HOST': DATABASE_HOST,
-        'PORT': '25060',
+        'PORT': DATABASE_PORT,
+    },
+    'sqlite': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
-# Password validation
-# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
-
-AUTH_PASSWORD_VALIDATORS = [
-    {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    },
-    {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
-    },
-]
-
-
-# Internationalization
-# https://docs.djangoproject.com/en/4.2/topics/i18n/
-
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
-
-USE_I18N = True
-
-USE_TZ = True
-
-
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/4.2/howto/static-files/
-
 STATIC_URL = 'static/'
 STATIC_ROOT = Path(BASE_DIR).joinpath('staticfiles')
 STATICFILES_DIRS = (Path(BASE_DIR).joinpath('static'),)
-# Default primary key field type
-# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
+# Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-# Override default settings based on environment
-ENVIRONMENT = os.environ.get('DJANGO_ENV', 'development')
-
-
-# A hasher to use for encoding passwords. This will fall back to the first hasher I think.
+# Password hashing
 PASSWORD_HASHERS = [
     'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
 ]
-AUTH_USER_MODEL = 'user.RegisteredUser'
 
-CSRF_COOKIE_SECURE = True
-CSRF_COOKIE_HTTPONLY = True
-CSRF_COOKIE_NAME = "csrftoken"
+AUTH_USER_MODEL = 'user.RegisteredUser'
 REST_USE_JWT = True
 
-if ENVIRONMENT == 'production':
-    from .settings_prod import *
-elif ENVIRONMENT == 'test':
-    from .settings_test import *
-else:
-    from .settings_dev import *
-
-# Print the environment and allowed hosts for debugging purposes
-print(f"Environment: {ENVIRONMENT}")
-print(f"Allowed Hosts: {ALLOWED_HOSTS}")
