@@ -80,15 +80,6 @@ def prod(c):
     env_file = ".env.dev"
     c.run(f'docker-compose --env-file {env_file} -f docker-compose.prod.yml up -d')
 
-
-@task
-def rebuild_db_dev(c):
-    rebuild_db(c, 'development')
-
-@task
-def rebuild_db_test(c):
-    rebuild_db(c, 'test')
-
 @task
 def rebuild_db(c, env="development"):
     # Check environment
