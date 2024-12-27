@@ -4,7 +4,7 @@
     "pk": null,
     "fields": {
       "name": "Ace Visconti",
-      "image_path": "../static/survivors/ace_visconti.jpg"
+      "image_path": "/survivors/ace_visconti.jpg"
     }
   },
   {
@@ -12,7 +12,7 @@
     "pk": null,
     "fields": {
       "name": "Dwight Fairfield",
-      "image_path": "../static/survivors/dwight_fairfield.jpg"
+      "image_path": "/survivors/dwight_fairfield.jpg"
     }
   },
   {
@@ -20,7 +20,7 @@
     "pk": null,
     "fields": {
       "name": "Meg Thomas",
-      "image_path": "../static/survivors/meg_thomas.jpg"
+      "image_path": "/survivors/meg_thomas.jpg"
     }
   },
   {
@@ -28,7 +28,7 @@
     "pk": null,
     "fields": {
       "name": "Claudette Morel",
-      "image_path": "../static/survivors/claudette_morel.jpg"
+      "image_path": "/survivors/claudette_morel.jpg"
     }
   },
   {
@@ -36,7 +36,7 @@
     "pk": null,
     "fields": {
       "name": "Jake Park",
-      "image_path": "../static/survivors/jake_park.jpg"
+      "image_path": "/survivors/jake_park.jpg"
     }
   },
   {
@@ -44,7 +44,7 @@
     "pk": null,
     "fields": {
       "name": "Nea Karlsson",
-      "image_path": "../static/survivors/nea_karlsson.jpg"
+      "image_path": "/survivors/nea_karlsson.jpg"
     }
   },
   {
@@ -52,7 +52,7 @@
     "pk": null,
     "fields": {
       "name": "Laurie Strode",
-      "image_path": "../static/survivors/laurie_strode.jpg"
+      "image_path": "/survivors/laurie_strode.jpg"
     }
   },
   {
@@ -60,7 +60,7 @@
     "pk": null,
     "fields": {
       "name": "William \"Bill\" Overbeck",
-      "image_path": "../static/survivors/william_bill_overbeck.jpg"
+      "image_path": "/survivors/william_bill_overbeck.jpg"
     }
   },
   {
@@ -68,7 +68,7 @@
     "pk": null,
     "fields": {
       "name": "Feng Min",
-      "image_path": "static/survivors/feng_min.jpg"
+      "image_path": "/survivors/feng_min.jpg"
     }
   },
   {
@@ -76,7 +76,7 @@
     "pk": null,
     "fields": {
       "name": "David King",
-      "image_path": "static/survivors/david_king.jpg"
+      "image_path": "/survivors/david_king.jpg"
     }
   },
   {
@@ -84,7 +84,7 @@
     "pk": null,
     "fields": {
       "name": "Quentin Smith",
-      "image_path": "static/survivors/quentin_smith.jpg"
+      "image_path": "/survivors/quentin_smith.jpg"
     }
   },
   {
@@ -92,7 +92,7 @@
     "pk": null,
     "fields": {
       "name": "Detective David Tapp",
-      "image_path": "static/survivors/david_tapp.jpg"
+      "image_path": "/survivors/david_tapp.jpg"
     }
   },
   {
@@ -100,7 +100,7 @@
     "pk": null,
     "fields": {
       "name": "Kate Denson",
-      "image_path": "static/survivors/kate_denson.jpg"
+      "image_path": "/survivors/kate_denson.jpg"
     }
   },
   {
@@ -108,7 +108,7 @@
     "pk": null,
     "fields": {
       "name": "Adam Francis",
-      "image_path": "static/survivors/adam_francis.jpg"
+      "image_path": "/survivors/adam_francis.jpg"
     }
   },
   {
@@ -116,7 +116,7 @@
     "pk": null,
     "fields": {
       "name": "Jeffrey \"Jeff\" Johansen",
-      "image_path": "static/survivors/jeff_johansen.jpg"
+      "image_path": "/survivors/jeff_johansen.jpg"
     }
   },
   {
@@ -124,7 +124,7 @@
     "pk": null,
     "fields": {
       "name": "Jane Romero",
-      "image_path": "static/survivors/jane_romero.jpg"
+      "image_path": "/survivors/jane_romero.jpg"
     }
   },
   {
@@ -132,7 +132,7 @@
     "pk": null,
     "fields": {
       "name": "Ashley J. Williams",
-      "image_path": "static/survivors/ash_williams.jpg"
+      "image_path": "/survivors/ash_williams.jpg"
     }
   },
   {
@@ -140,7 +140,7 @@
     "pk": null,
     "fields": {
       "name": "Nancy Wheeler",
-      "image_path": "static/survivors/nancy_wheeler.jpg"
+      "image_path": "/survivors/nancy_wheeler.jpg"
     }
   },
   {
@@ -148,7 +148,7 @@
     "pk": null,
     "fields": {
       "name": "Steve Harrington",
-      "image_path": "static/survivors/steve_harrington.jpg"
+      "image_path": "/survivors/steve_harrington.jpg"
     }
   },
   {
@@ -156,7 +156,7 @@
     "pk": null,
     "fields": {
       "name": "Yui Kimura",
-      "image_path": "static/survivors/yui_kimura.jpg"
+      "image_path": "/survivors/yui_kimura.jpg"
     }
   },
   {
@@ -164,7 +164,7 @@
     "pk": null,
     "fields": {
       "name": "Zarina Kassir",
-      "image_path": "static/survivors/zarina_kassir.jpg"
+      "image_path": "/survivors/zarina_kassir.jpg"
     }
   },
   {
@@ -172,7 +172,7 @@
     "pk": null,
     "fields": {
       "name": "Cheryl Mason",
-      "image_path": "static/survivors/cheryl_mason.jpg"
+      "image_path": "/survivors/cheryl_mason.jpg"
     }
   },
   {
@@ -180,7 +180,7 @@
     "pk": null,
     "fields": {
       "name": "Felix Richter",
-      "image_path": "static/survivors/felix_richter.jpg"
+      "image_path": "/survivors/felix_richter.jpg"
     }
   },
   {
@@ -188,7 +188,7 @@
     "pk": null,
     "fields": {
       "name": "Élodie Rakoto",
-      "image_path": "static/survivors/elodie_rakoto.jpg"
+      "image_path": "/survivors/elodie_rakoto.jpg"
     }
   },
   {
@@ -196,7 +196,7 @@
     "pk": null,
     "fields": {
       "name": "Yun-Jin Lee",
-      "image_path": "static/survivors/yun_jin_lee.jpg"
+      "image_path": "/survivors/yun_jin_lee.jpg"
     }
   },
   {
@@ -204,7 +204,7 @@
     "pk": null,
     "fields": {
       "name": "Jill Valentine",
-      "image_path": "static/survivors/jill_valentine.jpg"
+      "image_path": "/survivors/jill_valentine.jpg"
     }
   },
   {
@@ -212,7 +212,7 @@
     "pk": null,
     "fields": {
       "name": "Leon Scott Kennedy",
-      "image_path": "static/survivors/leon_scott_kennedy.jpg"
+      "image_path": "/survivors/leon_scott_kennedy.jpg"
     }
   },
   {
@@ -220,7 +220,7 @@
     "pk": null,
     "fields": {
       "name": "Mikaela Reid",
-      "image_path": "static/survivors/mikaela_reid.jpg"
+      "image_path": "/survivors/mikaela_reid.jpg"
     }
   },
   {
@@ -228,7 +228,7 @@
     "pk": null,
     "fields": {
       "name": "Jonah Vasquez",
-      "image_path": "static/survivors/jonah_vasquez.jpg"
+      "image_path": "/survivors/jonah_vasquez.jpg"
     }
   },
   {
@@ -236,7 +236,7 @@
     "pk": null,
     "fields": {
       "name": "Yoichi Asakawa",
-      "image_path": "static/survivors/yoichi_asakawa.jpg"
+      "image_path": "/survivors/yoichi_asakawa.jpg"
     }
   },
   {
@@ -244,7 +244,7 @@
     "pk": null,
     "fields": {
       "name": "Haddie Kaur",
-      "image_path": "static/survivors/haddie_kaur.jpg"
+      "image_path": "/survivors/haddie_kaur.jpg"
     }
   },
   {
@@ -252,7 +252,7 @@
     "pk": null,
     "fields": {
       "name": "Ada Wong",
-      "image_path": "static/survivors/ada_wong.jpg"
+      "image_path": "/survivors/ada_wong.jpg"
     }
   },
   {
@@ -260,7 +260,7 @@
     "pk": null,
     "fields": {
       "name": "Rebecca Chambers",
-      "image_path": "static/survivors/rebecca_chambers.jpg"
+      "image_path": "/survivors/rebecca_chambers.jpg"
     }
   },
   {
@@ -268,7 +268,7 @@
     "pk": null,
     "fields": {
       "name": "Vittorio Toscano",
-      "image_path": "static/survivors/vittorio_toscano.jpg"
+      "image_path": "/survivors/vittorio_toscano.jpg"
     }
   },
   {
@@ -276,7 +276,7 @@
     "pk": null,
     "fields": {
       "name": "Thalita Lyra",
-      "image_path": "static/survivors/thalita_lyra.jpg"
+      "image_path": "/survivors/thalita_lyra.jpg"
     }
   },
   {
@@ -284,7 +284,7 @@
     "pk": null,
     "fields": {
       "name": "Renato Lyra",
-      "image_path": "static/survivors/renato_lyra.jpg"
+      "image_path": "/survivors/renato_lyra.jpg"
     }
   },
   {
@@ -292,7 +292,7 @@
     "pk": null,
     "fields": {
       "name": "Gabriel Soma",
-      "image_path": "static/survivors/gabriel_soma.jpg"
+      "image_path": "/survivors/gabriel_soma.jpg"
     }
   },
   {
@@ -300,7 +300,7 @@
     "pk": null,
     "fields": {
       "name": "Nicolas Cage",
-      "image_path": "static/survivors/nicolas_cage.jpg"
+      "image_path": "/survivors/nicolas_cage.jpg"
     }
   },
   {
@@ -308,7 +308,7 @@
     "pk": null,
     "fields": {
       "name": "Ellen Ripley",
-      "image_path": "static/survivors/ellen_ripley.jpg"
+      "image_path": "/survivors/ellen_ripley.jpg"
     }
   },
   {
@@ -316,7 +316,7 @@
     "pk": null,
     "fields": {
       "name": "Alan Wake",
-      "image_path": "static/survivors/alan_wake.jpg"
+      "image_path": "/survivors/alan_wake.jpg"
     }
   },
   {
@@ -324,7 +324,7 @@
     "pk": null,
     "fields": {
       "name": "Sable Ward",
-      "image_path": "static/survivors/sable_ward.jpg"
+      "image_path": "/survivors/sable_ward.jpg"
     }
   },
   {
@@ -332,7 +332,7 @@
     "pk": null,
     "fields": {
       "name": "The Troupe",
-      "image_path": "static/survivors/the_troupe.jpg"
+      "image_path": "/survivors/the_troupe.jpg"
     }
   },
   {
@@ -340,7 +340,7 @@
     "pk": null,
     "fields": {
       "name": "Lara Croft",
-      "image_path": "static/survivors/lara_croft.jpg"
+      "image_path": "/survivors/lara_croft.jpg"
     }
   },
   {
@@ -348,7 +348,7 @@
     "pk": null,
     "fields": {
       "name": "Trevor Belmont",
-      "image_path": "static/survivors/trevor_belmont.jpg"
+      "image_path": "/survivors/trevor_belmont.jpg"
     }
   }
 ]
