@@ -29,7 +29,7 @@ else:
     from .settings_dev import *
 
 # Load runtime environment variables with defaults
-SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", SECRET_KEY or get_random_secret_key())
+SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", get_random_secret_key())
 DEBUG = os.getenv("DEBUG", str(DEBUG)).lower() == "true"  # Prefer runtime, default to False
 
 # Print a warning if in production and DEBUG is enabled
