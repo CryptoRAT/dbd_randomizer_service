@@ -4,10 +4,6 @@
 /.idea
 # virtual environment
 /venv/
-# Environment files we shouldn't be committing.
-.env.prod
-.env.test
-.env.staging
 
 # Test output files
 **/.coverage
