@@ -4,7 +4,7 @@
     "pk": null,
     "fields": {
       "name": "The Good Guy",
-      "image_path": "../static/killers/the_good_guy.webp"
+      "image_path": "/killers/the_good_guy.webp"
     }
   },
   {
@@ -12,7 +12,7 @@
     "pk": null,
     "fields": {
       "name": "The Artist",
-      "image_path": "../static/killers/the_artist.webp"
+      "image_path": "/killers/the_artist.webp"
     }
   },
   {
@@ -20,7 +20,7 @@
     "pk": null,
     "fields": {
       "name": "The Blight",
-      "image_path": "../static/killers/the_blight.webp"
+      "image_path": "/killers/the_blight.webp"
     }
   },
   {
@@ -28,7 +28,7 @@
     "pk": null,
     "fields": {
       "name": "The Cannibal",
-      "image_path": "../static/killers/the_cannibal.webp"
+      "image_path": "/killers/the_cannibal.webp"
     }
   },
   {
@@ -36,7 +36,7 @@
     "pk": null,
     "fields": {
       "name": "The Cenobite",
-      "image_path": "../static/killers/the_cenobite.webp"
+      "image_path": "/killers/the_cenobite.webp"
     }
   },
   {
@@ -44,7 +44,7 @@
     "pk": null,
     "fields": {
       "name": "The Clown",
-      "image_path": "../static/killers/the_clown.webp"
+      "image_path": "/killers/the_clown.webp"
     }
   },
   {
@@ -52,7 +52,7 @@
     "pk": null,
     "fields": {
       "name": "The Deathslinger",
-      "image_path": "../static/killers/the_deathslinger.webp"
+      "image_path": "/killers/the_deathslinger.webp"
     }
   },
   {
@@ -60,7 +60,7 @@
     "pk": null,
     "fields": {
       "name": "The Demogorgon",
-      "image_path": "../static/killers/the_demogorgon.webp"
+      "image_path": "/killers/the_demogorgon.webp"
     }
   },
   {
@@ -68,7 +68,7 @@
     "pk": null,
     "fields": {
       "name": "The Doctor",
-      "image_path": "../static/killers/the_doctor.webp"
+      "image_path": "/killers/the_doctor.webp"
     }
   },
   {
@@ -76,7 +76,7 @@
     "pk": null,
     "fields": {
       "name": "The Dredge",
-      "image_path": "../static/killers/the_dredge.webp"
+      "image_path": "/killers/the_dredge.webp"
     }
   },
   {
@@ -84,7 +84,7 @@
     "pk": null,
     "fields": {
       "name": "The Executioner",
-      "image_path": "../static/killers/the_executioner.webp"
+      "image_path": "/killers/the_executioner.webp"
     }
   },
   {
@@ -92,7 +92,7 @@
     "pk": null,
     "fields": {
       "name": "The Ghost Face",
-      "image_path": "../static/killers/the_ghost_face.webp"
+      "image_path": "/killers/the_ghost_face.webp"
     }
   },
   {
@@ -100,7 +100,7 @@
     "pk": null,
     "fields": {
       "name": "The Hag",
-      "image_path": "../static/killers/the_hag.webp"
+      "image_path": "/killers/the_hag.webp"
     }
   },
   {
@@ -108,7 +108,7 @@
     "pk": null,
     "fields": {
       "name": "The Hillbilly",
-      "image_path": "../static/killers/the_hillbilly.webp"
+      "image_path": "/killers/the_hillbilly.webp"
     }
   },
   {
@@ -116,7 +116,7 @@
     "pk": null,
     "fields": {
       "name": "The Huntress",
-      "image_path": "../static/killers/the_huntress.webp"
+      "image_path": "/killers/the_huntress.webp"
     }
   },
   {
@@ -124,7 +124,7 @@
     "pk": null,
     "fields": {
       "name": "The Knight",
-      "image_path": "../static/killers/the_knight.webp"
+      "image_path": "/killers/the_knight.webp"
     }
   },
   {
@@ -132,7 +132,7 @@
     "pk": null,
     "fields": {
       "name": "The Legion",
-      "image_path": "../static/killers/the_legion.webp"
+      "image_path": "/killers/the_legion.webp"
     }
   },
   {
@@ -140,7 +140,7 @@
     "pk": null,
     "fields": {
       "name": "The Mastermind",
-      "image_path": "../static/killers/the_mastermind.webp"
+      "image_path": "/killers/the_mastermind.webp"
     }
   },
   {
@@ -148,7 +148,7 @@
     "pk": null,
     "fields": {
       "name": "The Nemesis",
-      "image_path": "../static/killers/the_nemesis.webp"
+      "image_path": "/killers/the_nemesis.webp"
     }
   },
   {
@@ -156,7 +156,7 @@
     "pk": null,
     "fields": {
       "name": "The Nightmare",
-      "image_path": "../static/killers/the_nightmare.webp"
+      "image_path": "/killers/the_nightmare.webp"
     }
   },
   {
@@ -164,7 +164,7 @@
     "pk": null,
     "fields": {
       "name": "The Nurse",
-      "image_path": "../static/killers/the_nurse.webp"
+      "image_path": "/killers/the_nurse.webp"
     }
   },
   {
@@ -172,7 +172,7 @@
     "pk": null,
     "fields": {
       "name": "The Oni",
-      "image_path": "../static/killers/the_oni.webp"
+      "image_path": "/killers/the_oni.webp"
     }
   },
   {
@@ -180,7 +180,7 @@
     "pk": null,
     "fields": {
       "name": "The Onyro",
-      "image_path": "../static/killers/the_onyro.webp"
+      "image_path": "/killers/the_onyro.webp"
     }
   },
   {
@@ -188,7 +188,7 @@
     "pk": null,
     "fields": {
       "name": "The Pig",
-      "image_path": "../static/killers/the_pig.webp"
+      "image_path": "/killers/the_pig.webp"
     }
   },
   {
@@ -196,7 +196,7 @@
     "pk": null,
     "fields": {
       "name": "The Plague",
-      "image_path": "../static/killers/the_plague.webp"
+      "image_path": "/killers/the_plague.webp"
     }
   },
   {
@@ -204,7 +204,7 @@
     "pk": null,
     "fields": {
       "name": "The Shape",
-      "image_path": "../static/killers/the_shape.webp"
+      "image_path": "/killers/the_shape.webp"
     }
   },
   {
@@ -212,7 +212,7 @@
     "pk": null,
     "fields": {
       "name": "The Singularity",
-      "image_path": "../static/killers/the_singularity.webp"
+      "image_path": "/killers/the_singularity.webp"
     }
   },
   {
@@ -220,7 +220,7 @@
     "pk": null,
     "fields": {
       "name": "The Skull Merchant",
-      "image_path": "../static/killers/the_skull_merchant.webp"
+      "image_path": "/killers/the_skull_merchant.webp"
     }
   },
   {
@@ -228,7 +228,7 @@
     "pk": null,
     "fields": {
       "name": "The Spirit",
-      "image_path": "../static/killers/the_spirit.webp"
+      "image_path": "/killers/the_spirit.webp"
     }
   },
   {
@@ -236,7 +236,7 @@
     "pk": null,
     "fields": {
       "name": "The Trapper",
-      "image_path": "../static/killers/the_trapper.webp"
+      "image_path": "/killers/the_trapper.webp"
     }
   },
   {
@@ -244,7 +244,7 @@
     "pk": null,
     "fields": {
       "name": "The Trickster",
-      "image_path": "../static/killers/the_trickster.webp"
+      "image_path": "/killers/the_trickster.webp"
     }
   },
   {
@@ -252,7 +252,7 @@
     "pk": null,
     "fields": {
       "name": "The Twins",
-      "image_path": "../static/killers/the_twins.webp"
+      "image_path": "/killers/the_twins.webp"
     }
   },
   {
@@ -260,7 +260,7 @@
     "pk": null,
     "fields": {
       "name": "The Wraith",
-      "image_path": "../static/killers/the_wraith.webp"
+      "image_path": "/killers/the_wraith.webp"
     }
   },
   {
@@ -268,7 +268,7 @@
     "pk": null,
     "fields": {
       "name": "The Xenomorph",
-      "image_path": "../static/killers/the_xenomorph.webp"
+      "image_path": "/killers/the_xenomorph.webp"
     }
   },
   {
@@ -276,7 +276,7 @@
     "pk": null,
     "fields": {
       "name": "The Good Guy",
-      "image_path": "../static/killers/the_good_guy.webp"
+      "image_path": "/killers/the_good_guy.webp"
     }
   },
   {
@@ -284,7 +284,7 @@
     "pk": null,
     "fields": {
       "name": "The Unknown",
-      "image_path": "../static/killers/the_unknown.webp"
+      "image_path": "/killers/the_unknown.webp"
     }
   },
   {
@@ -292,7 +292,7 @@
     "pk": null,
     "fields": {
       "name": "The Lich",
-      "image_path": "../static/killers/the_lich.webp"
+      "image_path": "/killers/the_lich.webp"
     }
   },
   {
@@ -300,7 +300,7 @@
     "pk": null,
     "fields": {
       "name": "The Dark Lord",
-      "image_path": "../static/killers/the_dark_lord.webp"
+      "image_path": "/killers/the_dark_lord.webp"
     }
   }
 ]
