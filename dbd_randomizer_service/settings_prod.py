@@ -1,4 +1,13 @@
+import os
+from django.core.management.utils import get_random_secret_key
+
 DEBUG = False
+SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", get_random_secret_key())
+DATABASE_NAME = os.getenv("DATABASE_NAME")
+DATABASE_USER = os.getenv("DATABASE_USER")
+DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD")
+DATABASE_HOST = os.getenv("DATABASE_HOST")
+DATABASE_PORT = os.getenv("DATABASE_PORT")
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",

@@ -41,12 +41,6 @@ ALLOWED_HOSTS = os.getenv(
     ",".join(ALLOWED_HOSTS) if "ALLOWED_HOSTS" in globals() else "127.0.0.1,localhost"
 ).split(",")
 
-DATABASE_NAME = os.getenv("DATABASE_NAME", DATABASE_NAME)
-DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD", DATABASE_PASSWORD)
-DATABASE_HOST = os.getenv("DATABASE_HOST", DATABASE_HOST)
-DATABASE_USER = os.getenv("DATABASE_USER", DATABASE_USER)
-DATABASE_PORT = os.getenv("DATABASE_PORT", DATABASE_PORT)
-
 # Debugging output
 print(f"Environment: {ENVIRONMENT}")
 print(f"Allowed Hosts: {ALLOWED_HOSTS}")
