@@ -82,12 +82,20 @@ def prod(c):
 
 
 @task
-def rebuild_db(c):
+def rebuild_db_dev(c):
+    rebuild_db(c, 'development')
+
+@task
+def rebuild_db_test(c):
+    rebuild_db(c, 'test')
+
+@task
+def rebuild_db(c, env="development"):
     # Check environment
-    env = c.run('echo $DJANGO_ENV', hide=True).stdout.strip() or 'development'
     if env == "production":
         print("ERROR: Rebuilding the database in production is not allowed!")
         return
+
     # Load Django settings
     settings = load_django_settings(environment=env)
 

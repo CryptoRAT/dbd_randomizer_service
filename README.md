@@ -1,13 +1,15 @@
+
 # dbd_randomizer_service
 
-This project is the backend API server for the [lupogreybeard-ui](https://www.lupogreybeard.com/dbd/) and the dbd\
-randomizer [mobile app](https://github.com/CryptoRAT/dbdrandomizer). It is written in Python, using the Django\ 
-framework. It is backed by a postgres database.
+This project is the backend API server for the [lupogreybeard-ui](https://www.lupogreybeard.com/dbd/) and the dbd randomizer [mobile app](https://github.com/CryptoRAT/dbdrandomizer). It is written in Python, using the Django framework. It is backed by a postgres database.
 
+---
 
 ## Build, Test, and Run Lifecycle Operations
 
 This section outlines the typical workflow for building, testing, and running the Django application using Fabric commands. Each step corresponds to a Fabric task and ensures a smooth lifecycle management process.
+
+---
 
 ### 1. **Setup and Initialization**
 
@@ -23,14 +25,22 @@ Install the required Python dependencies:
 fab install
 ```
 
-#### Initialize the Database (Optional)
-Development uses a local db. Check out the instructions in [database docs](docs/DATABASE.md) 
-to learn how to set this up.
+#### Initialize the Database
+Development uses a local database. Check out the instructions in [database docs](docs/DATABASE.md) to learn how to set this up.
 
 Then run migrations:
 ```bash
 fab migrate
 ```
+
+If you need to rebuild the database, you can use:
+```bash
+fab rebuild-db --env=development
+```
+
+This will drop and recreate the database for the specified environment (default is `development`, other option is `test`).
+
+---
 
 ### 2. **Build the Application**
 
@@ -64,6 +74,11 @@ fab devcontainer
 Run all tests in the project. This will set the `DJANGO_ENV` to `test` and execute `pytest`:
 ```bash
 fab test
+```
+
+To rebuild the test database before running tests:
+```bash
+fab rebuild-db --env=test
 ```
 
 ---
@@ -111,7 +126,8 @@ Here’s a suggested order for running the lifecycle tasks:
    - Dockerized: `fab devcontainer`
 
 4. **Test**:
-   - `fab test`
+   - Run Tests: `fab test`
+   - Rebuild Test Database: `fab rebuild-db --env=test`
 
 5. **Production**:
    - Deploy: `fab prod`
@@ -122,21 +138,10 @@ Here’s a suggested order for running the lifecycle tasks:
 
 ---
 
-### Notes
+## Deployment
+This project is autodeployed to a DigitalOcean app when a merge is made to `main`. This is accomplished using GitHub actions and tools provided by DigitalOcean.
 
-- **Environment Variables**: Ensure the `.env` files are correctly set up for the desired environment.
-- **Docker Compose Configurations**: 
-  - Development: `docker-compose.override.yml`
-  - Production: `docker-compose.prod.yml`
-- **Database Initialization**: If rebuilding the database, ensure to apply migrations after recreation.
-- **Virtual Environment**: Use `fab activate` to ensure all Python commands run within the virtual environment.
+---
 
-
-
-### Deployment
-This project is autodeployed to a digitalocean app when a merge is made to main. This is accomplished using github\ 
-actions and tools provided by digitalocean. 
-
-
-### TODOs
-You can see a list of things I would like to add to this site here: [wish list])(./WISHLIST.md)
+## TODOs
+You can see a list of things I would like to add to this site here: [wish list](./WISHLIST.md)
