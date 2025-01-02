@@ -36,14 +36,20 @@ DEBUG = os.getenv("DEBUG", str(DEBUG)).lower() == "true"  # Prefer runtime, defa
 if ENVIRONMENT == "production" and DEBUG:
     print("WARNING: DEBUG mode is enabled in production. This is a security risk!")
 
-ALLOWED_HOSTS = os.getenv(
-    "DJANGO_ALLOWED_HOSTS",
-    ",".join(ALLOWED_HOSTS) if "ALLOWED_HOSTS" in globals() else "127.0.0.1,localhost"
-).split(",")
+A# Default value for development and testing
+default_allowed_hosts = "127.0.0.1,localhost"
+
+# Get ALLOWED_HOSTS from environment or use default
+allowed_hosts_env = os.getenv("DJANGO_ALLOWED_HOSTS", default_allowed_hosts)
+
+# Parse the comma-separated string into a list
+ALLOWED_HOSTS = allowed_hosts_env.split(",")
 
 # Debugging output
 print(f"Environment: {ENVIRONMENT}")
-print(f"Allowed Hosts: {ALLOWED_HOSTS}")
+print(f"DJANGO_ALLOWED_HOSTS: {allowed_hosts_env}")
+print(f"ALLOWED_HOSTS: {ALLOWED_HOSTS}")
+
 
 # Application definition
 INSTALLED_APPS = [
