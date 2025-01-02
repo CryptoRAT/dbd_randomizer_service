@@ -51,8 +51,9 @@ class KillerPerkView(viewsets.ModelViewSet):
 
 
 class RandomSurvivorPerkView(viewsets.ModelViewSet):
+    queryset = Perk.objects.filter(type="Survivor")
     def random(self, request, *args, **kwargs):
-        if request.method == 'POST':
+        if request.method == 'GET':
             # Handle POST logic here
             perks = Perk.objects.filter(type="Survivor").order_by('?')[:4]
             serializer = PerkSerializer(perks, many=True)
@@ -60,8 +61,9 @@ class RandomSurvivorPerkView(viewsets.ModelViewSet):
 
 
 class RandomKillerPerkView(viewsets.ModelViewSet):
+    queryset = Perk.objects.filter(type="Killer")
     def random(self, request, *args, **kwargs):
-        if request.method == 'POST':
+        if request.method == 'GET':
             # Handle POST logic here
             perks = Perk.objects.filter(type="Killer").order_by('?')[:4]
             serializer = PerkSerializer(perks, many=True)

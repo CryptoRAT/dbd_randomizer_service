@@ -11,4 +11,5 @@ CSRF_COOKIE_SECURE = False
 CSRF_COOKIE_DOMAIN = 'localhost'
 CSRF_TRUSTED_ORIGINS = ['http://localhost:3000', 'https://localhost:3000']
 CSRF_ALLOWED_ORIGINS = ['http://localhost:3000', 'https://localhost:3000']
+CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'https://localhost:3000']
 CORS_ORIGINS_WHITELIST = ['http://localhost:3000', 'https://localhost:3000']
