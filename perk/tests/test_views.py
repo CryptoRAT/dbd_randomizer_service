@@ -122,7 +122,7 @@ def test_random_survivor_perks():
     Perk.objects.create(name='Sprint Burst', owner='Meg Thomas', type='Survivor', image_path='/path/to/sprint_burst.jpg')
     url = reverse('random-survivor-perks')  # Matches random-survivor-perks route
 
-    response = client.post(url)
+    response = client.get(url)
 
     # Check that 1 to 4 random survivor perks are returned
     assert response.status_code == status.HTTP_200_OK
@@ -135,7 +135,7 @@ def test_random_killer_perks():
     Perk.objects.create(name='Hex: Ruin', owner='The Hag', type='Killer', image_path='/path/to/hex_ruin.jpg')
     url = reverse('random-killer-perks')  # Matches random-killer-perks route
 
-    response = client.post(url)
+    response = client.get(url)
 
     # Check that 1 to 4 random killer perks are returned
     assert response.status_code == status.HTTP_200_OK
